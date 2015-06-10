@@ -11,39 +11,39 @@ process:
     twig: true
 ---
 
-The Gantry framework itself is independent of any template. Each Gantry-enabled template relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered template does require the Gantry framework to work properly, Gantry is not inherently built in to the template, itself.
+Das Gantry Framework selbst ist unabhängig von einem Template. Jedes Gantry-fähige Template stützt sich auf das Framework. Die zugrunde liegende Basis und umfangreiche Funktionalität ermöglicht die Realisation von solch leistungsstarken Web-Sites. Ein mit Gantry erzeugtes Template erfordert das Framework um richtig zu funktionieren. Gantry ist nicht notwendigerweise im Template selbst eingebaut.
 
-Downloading Gantry
+Gantry Download
 ------------------
 
-Gantry has three available download types:
+Für Gantry 5 sind jeweils drei Download-Optionen verfügbar:
 
 {% set tab1 %}
 
-* **Bundle**: This includes the Framework (library, component & plugins), the Hydrogen template and associated extensions.
-* **Framework**: This contains only the Framework (library, component & plugins).
-* **Template**: This contains just the Hydrogen template.
+* **Bundle**: Dies beinhaltet das Framework (Bibliothek, Komponente & Plugins), das Hydrogen-Template und die zugehörigen Erweiterungen.
+* **Framework**: Dies enthält nur das Framework (Bibliothek, Komponente & Plugins).
+* **Template**: Dies enthält nur das Hydrogen-Template.
 
-The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
+Der Installationsvorgang ist exakt der gleiche für alle drei Varianten. Der einzige Unterschied ist die Datei, welche Sie installieren. Wählen Sie die für Sie beste Download-Option. Wir empfehlen das Bundle für die erstmalige Installation.
 
-<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
+<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download: Gantry 5 und das Hydrogen-Template</a></div>
 
->>> Prior to the first full release of Gantry 5, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
+>>> Vor der ersten vollständigen Freigabe von Gantry 5 werden **Framework** und **Template** in getrennten Installations-Paketen angeboten. Ein Bundle-Paket ist geplant, wird wahrscheinlich aber erst nach dem Beta-Start zur Verfügung stehen.
 
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
+>>> Die WordPress Version erscheint demnächst.
 
-* __Framework__: This contains only the Framework plugin.
-* __Theme__: This contains just the Gantry theme.
-* __RocketLauncher__: This includes the full WordPress installation, Framework (plugin) and the pre-configured Gantry template (only for NEW installations).
+* __Framework__: Dies enthält nur das Framework-Plugin.
+* __Theme__: Dies enthält nur das Gantry-Theme.
+* __RocketLauncher__: Dies beinhaltet eine komplette WordPress-Installation, das Framework-Plugin und das vorkonfigurierte Gantry-Theme (nur für neue Instal­la­tio­nen empfohlen).
 
-The package you choose to install makes a difference in terms of where you'll be installing the files. **Gantry Framework for WordPress** should be installed like a standard WordPress plugin. The **Gantry Default Theme for WordPress** should be installed the same way you would install any other theme. 
+Das Paket, das Sie zur Installation auswählen wird auf unterschiedliche Weise behandelt, was den Speicherort der Dateien betrifft. Gantry Framework für Wordpress sollte wie ein normales Wordpress-Plugin installiert werden. Das Gantry Default Theme für Wordpress sollte auf die gleiche Weise wie alle anderen Themes installiert werden. 
 
->>>>> Keep in mind that you will need the Gantry framework installed for any Gantry themes to work.
+>>>>> Denken Sie daran , dass das Gantry Framework für alle Gantry-Themes auf Ihrem Computer installiert sein muss.
 
-If you don't have WordPress installed on your server yet, you can use the **RocketLauncher** package. It contains the full pre-configured Gantry environment, and is essentially a complete WordPress installation. Choose whichever download option is best for you. We recommend the **RocketLauncher** for first-time WordPress installations.
+IWenn Sie auf Ihrem Server Wordpress noch nicht installiert haben, können Sie das **RocketLauncher** Paket benutzen. Es enthält eine vollständige vorkonfigurierte Gantry-Umgebung und ist im Wesentlichen eine vollständige WordPress-Installation. Wählen Sie die für Sie beste Download-Option. Wir empfehlen **RocketLauncher** für erstmalige Wordpress-Installationen.
 
 <a href="http://www.gantry-framework.org/download#wordpress" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
 
@@ -56,66 +56,66 @@ If you don't have WordPress installed on your server yet, you can use the **Rock
 
 [plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
 
-Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v5.0.0.zip`) by navigating to **Extensions → Extensions Manager → Install** and selecting the **Choose File** button. Locate the downloaded ZIP and click **Upload & Install** to begin the installation process.
+Installieren Sie das **Gantry Framework-Paket** (die Datei ist ähnlich benannt wie `pkg_gantry5-v5.0.0.zip`), indem Sie im Joomla Back-End zu **Erweiterungen** → **Erweiterungen** → **Installieren** gehen. Mit **Durchsuchen** wählen Sie die heruntergeladene ZIP-Datei aus. Danach klicken Sie auf **Hochladen & Installieren**, um die Installation zu starten.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}
 
-After installing the Gantry Framework package, all of the Gantry extensions will appear in the **Extensions Manager**.
+Nach der Installation des Gantry Framework-Pakets, werden alle Gantry-Erweiterungen im **Extension-Manager** angezeigt.
 
 ![Extensions](gantry_extensions.png) {.border .shadow}
 
-If you are having any issues, including the following error messages:
+Wenn Sie irgendwelche Probleme haben, einschließlich der folgenden Fehlermeldungen:
 
 * `Failed to load 'g5_hydrogen' template: Please install Gantry5 Framework!` 
 * `Error - Please install Gantry5 Framework!`
 * `Error - Gantry5 Templates: Please enable 'System - Gantry5 Framework' plugin!`
 
-You will want to make sure that all of Gantry's associated extensions are enabled. To do so, simply select any non-enabled extensions listed in the image above, and activate them by selecting the **Enable** button in the upper-left area of the **Extensions Manager**.
+... dann sollten Sie sicherstellen, dass alle Gantry zugehörigen Erweiterungen aktiviert sind. Um dies zu tun, wählen Sie einfach alle im Bild oben aufgeführten, nicht aktiviert Erweiterungen aus und aktivieren Sie diese, indem Sie die Schaltfläche **Aktivieren** im oberen linken Bereich des **Erweiterungs-Managers**.
 
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
+>>> Die WordPress Version erscheint demnächst.
 
-To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
+Um das Gantry-Plugin zu installieren navigieren Sie zu **Plugins → Installieren** im Admin-Bereich von Wordpress. Von hier aus, wählen Sie die Schaltfläche **Durchsuchen** und markiern Sie die heruntergeladene ZIP-Datei. Dann klicken Sie auf **Installieren**, um die Installation zu starten.
 
 ![](install-upload_wp.jpg) {.border .shadow}
 
-The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
+Das Gantry-Template wird in **Design → Themes** und das Gantry-Plugin in **Plugins** erscheinen.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-## Installing a Gantry Template
+## Installieren eines Gantry Templates
 
 {% set tab1 %}
 
-Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
+Installieren Sie über **Erweiterungen → Erweiterungen → Installieren → Paketdatei hochladen**. Wählen Sie mit dem **Durchsuchen**-Button die heruntergeladene ZIP-Datei aus und klicken Sie auf **Hochladen & Installieren**, um die Installation zu starten.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}
 
-The Gantry template will appear in the **Template Manager**, and all Gantry extensions will appear in the **Extensions Manager**.
+Das Gantry-Template wird im **Template-Manager** angezeigt, alle zugehörigen Gantry-Er­wei­te­rungen werden im **Extensions-Manager** angezeigt.
 
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+... erscheint demnächst!
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-## Setting a Gantry Template as Default
+## Ein Gantry Template als Standard festlegen
 
 {% set tab1 %}
 
-If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
+Wenn Sie das Gantry-Template verwenden, werden Sie es als Standardvorlage festlegen wollen, damit es im Front-End geladen wird. Gehen Sie zu **Erweiterungen → Template-Manager**, wählen Sie das Kontrollkästchen, Gantry, und klicken Sie auf **Standard** in der Schaltfläche in der Symbolleiste.
 
 ![](gantry_default.png) {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+... erscheint demnächst!
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

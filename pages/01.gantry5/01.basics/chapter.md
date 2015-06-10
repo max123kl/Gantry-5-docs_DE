@@ -9,4 +9,4 @@ taxonomy:
 
 # Basics
 
-Discover what **Gantry** is all about, the core-concepts behind it, and how to get started with a next-generation framework.
+Entdecken Sie Gantry 5, das Konzept dahinter und wie man mit einem Framework der nächsten Generation umgeht.

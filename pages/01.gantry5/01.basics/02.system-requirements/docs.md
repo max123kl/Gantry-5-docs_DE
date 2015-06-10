@@ -1,5 +1,5 @@
 ---
-title: System Requirements
+title: Systemvoraussetzungen
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -10,51 +10,51 @@ process:
     twig: true
 ---
 
-The Gantry framework does have some system requirements. Listed below are those requirements broken down into their distinct groups:
+Das Gantry Framework hat gewisse Systemanforderungen. Im Folgenden sind diese Anforderungen in Gruppen aufgelistet:
 
-Requirements
+CMS-Anforderungen
 -------------------
 
 {% set tab1 %}
 
 **Joomla 3.4+**
 
-It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.4** is the latest stable version of Joomla. Gantry 5 will only function properly on Joomla 3.4 and higher.
+Es wird dringend empfohlen, dass Sie immer die neueste stabile Version von Joomla verwenden, um sicherzustellen, dass alle bekannten Bugs und Sicherheitsprobleme ausgeschlossen werden. Zum Zeitpunkt als dieses Dokument geschrieben wurde ist 3.4 die neueste stabile Version von Joomla. Gantry 5 wird erst richtig mit Joomla 3.4 und höher funktionieren.
 
 {% endset %}
 {% set tab2 %}
 
 **WordPress 4.2.2**
 
-It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.2.2** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
+Es wird dringend empfohlen, dass Sie immer die neueste stabile Version von WordPress verwenden, um sicherzustellen, dass alle bekannten Bugs und Sicherheitsprobleme ausgeschlossen werden. Zum Zeitpunkt als dieses Dokument geschrieben wurde ist 4.2.2 die neueste stabile Version von WordPress. Wir empfehlen ein WordPress Update falls Sie eine andere Version benutzen.
 
->>> WordPress support is coming soon.
+>>> Die WordPress Version erscheint demnächst.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-## Server Requirements
+## Server-Anforderungen
 
-We try to ensure that Gantry templates (and specifically the Gantry Library) will work with any modern and secure server environment. The recommended minimum requirements are:
+Wir versuchen sicher zu stellen, dass die Gantry-Vorlagen (und speziell die Gantry Library) mit jeder modernen und sicheren Server-Umgebung arbeitet. Die empfohlenen Mindestanforderungen sind:
 
-* PHP 5.4+
+    * PHP 5.4+
     * Curl
-    * OpenSSL Libraries
-    * Multibyte String Support
+    * OpenSSL Bibliotheken
+    * Multibyte String Unterstützung
 
-## Browser Requirements
+## Browser-Anforderungen
 
-The back-end administration requirements of Gantry in order of preference are as follows:
+Die Back-End Administrations-Anforderungen von Gantry in der empfohlenen Reihenfolge sind wie folgt:
 
 * Google Chrome 41+
 * Firefox 36+
 * Safari 8+
 * Opera 28+
-* Internet Explorer 10+ (9 supported at limited capacity)
+* Internet Explorer 10+ (9 mit begrenzten Funktionalität)
 
-## Development Environments
+## Entwicklungsumgebungen
 
-Local development is the preferred method of working with any Gantry based template as it allows for the fastest development iterations due to flat out performance and convenience. The following is a list of suitable server setups that can be installed locally on your computer:
+Die lokale Entwicklung ist die bevorzugte Methode um mit jedem Gantry basierten Template zu arbeiten. Da die Verarbeitungsgeschwindigkeit und Komfort hier am besten ist. Nachfolgend finden Sie eine Liste der geeigneten Server-Umgebungen, die lokal auf Ihrem Computer installiert werden können:
 
 
 | Mac OS X                                                                                              | Windows                                                                     | Linux                                                                       |

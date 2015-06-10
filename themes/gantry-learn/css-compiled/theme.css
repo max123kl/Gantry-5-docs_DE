@@ -404,19 +404,19 @@ blockquote > blockquote > blockquote {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
     background: #FAE2E2; }
     blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-      content: 'Warning'; }
+      content: 'Warnung'; }
   blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -118px;
     border-top: 30px solid #6AB0DE;
     background: #E7F2FA; }
     blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-      content: 'Note'; }
+      content: 'Notiz'; }
   blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -142px;
     border-top: 30px solid rgba(92, 184, 92, 0.8);
     background: #E6F9E6; }
     blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
-      content: 'Tip'; }
+      content: 'Tipp'; }
 
 code,
 kbd,

@@ -1,60 +1,60 @@
 ---
-title: Key Features
+title: Hauptmerkmale
 taxonomy:
     category: docs
     tag: [gantry5]
 ---
 
-Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
+Gantry 5 ist mit Funktionen vollgepackt, die die Entwicklung von Entwürfen und Ideen zu voll funktionfähigen Seiten-Layouts unterstützen, und das mit dem absoluten Minimum an Aufwand.
 
 [plugin:youtube](https://www.youtube.com/watch?v=H0RCz-ziJoo) 
 
-#### Responsive Layout System
+#### Responsives Layoutsystem
 
-Gantry 5 uses the **Nucleus** grid system, built from scratch using Flexbox and tied in to the **Layout Manager** to generate classes.
+Gantry 5 verwendet das **Nucleus** Raster-System, das auf Flexbox basiert und an den **Layout-Manager** gebunden ist um CSS-Klassen zu generieren.
 
-#### Cross-platform Support
+#### Plattformübergreifende Unterstützung
 
-The new responsive Gantry 5 framework is available for **Joomla 3.4+**, **WordPress 4.2.2++**, **phpBB 3.1+**, **Grav 1.0+**, and **Magento CE 1.9.1+**.
+Das neue responsive Gantry 5 Framework ist für **Joomla 3.4+**, **Wordpress 4.2.2++**, ­**phpBB 3.1+**, **Grav 1.0+** und **Magento CE 1.9.1+** erhältlich.
 
->>> Gantry 5's initial beta launch will only be compatible with Joomla 3.4+. Additional platforms will be added as development continues.
+>>> Die erste Gantry 5 Beta-Version ist nur mit Joomla 3.4+ kompatibel. Weitere Ver­sionen für zusätzliche Platformen erscheinen nach und nach.
 
-#### Intuitive YAML-driven Configuration
+#### Intuitive YAML gesteuerte Konfiguration
 
-[YAML](http://yaml.org/) is a human-readable data serialization, making it easy to create and configure blueprints for back-end configuration options.
+[YAML](http://yaml.org/) ist eine menschenlesbare Auszeichnungssprache zur Datenserialisierung. Sie erleichtert das Erstellen und Konfigurieren von Kopien für Back-End-Konfigurationsoptionen.
 
 #### Twig Templating
 
-Gantry 5 utilizes [Twig](http://twig.sensiolabs.org/) to make creating powerful, dynamic themes quick and easy.
+Gantry 5 nutzt [Twig](http://twig.sensiolabs.org/), ein mächtiges Werkzeug, um die Template-Erstellung dynamisch, schnell und einfach zu realisieren.
 
-#### New Administrative Interface
+#### Neue Administrations-Schnittstelle
 
-Gantry 5's administrative interface has been completely rebuilt from the ground up to meet the needs of tomorrow's developer, today.
+Die Gantry 5 Verwaltungsoberfläche wurde von Grund auf komplett neu entwickelt und damit die Bedürfnisse der Entwickler von morgen schon heute zu erfüllen.
 
-#### Infinitely Customizable
+#### Unbegrenzt anpassbar
 
-Gantry 5 is the most customizable and powerful version of the framework yet, featuring drag-and-drop customization controlling virtually every aspect of the site's layout and design.
+Gantry 5 ist heute die anpassbarste und leistungsfähigste Version des Frameworks. Mit Drag-and-Drop-Steuerung kann individuell gestaltet werden. Praktisch jeder Aspekt des Layout und Design der Website ist steuerbar.
 
-#### New Particles System
+#### Das neue Partikel-System
 
-Gantry 5's new Particles system makes it easy to create, configure, and manage content blocks. Create new Particles in minutes, adjust their settings at multiple levels from global down to the individual block, and more!
+Das neue Gantry 5 Partikel-System macht es einfach Inhaltsblöcke zu erstellen, konfigurieren und zu verwalten. Erstellen Sie schnellstens neue Partikel und passen die Einstellungen auf mehreren Ebenen von global bis zum einzelnen Block usw. an.
 
-#### Flexible and Easy Layout Manager
+#### Flexibler und einfacher Layout-Manager
 
-Set up and configure page layouts with Gantry 5's new Layout Manager. Featuring drag-and-drop functionality that gives you the power to place content blocks, resize them, and configure their unique settings in seconds. Load layout presets or duplicate the layout of another Outline with a click of the mouse, and customize virtually every aspect of the page layout without ever having to touch a text editor.
+Einrichtung und Konfiguration von Seitenlayouts mit Gantry 5 erfolgt mit dem neuen Layout-Manager. Die Drag-and-Drop-Funktionalität ermöglicht Ihnen Inhaltsblöcke zu platzieren, die Größe zu ändern, und Sie konfigurieren ihre eigenen Einstellungen in Sekunden. Layoutvorlagen laden oder duplizieren Sie das Layout einer anderen Vorlage mit einem Klick der Maus. Passen Sie praktisch jeden Aspekt des Seitenlayouts an, ohne jemals einen Text-Editor zu benötigen.
 
-#### No Programming Experience Necessary
+#### Keine Programmierkenntnisse notwendig
 
-Adding and moving positions, resizing blocks, and more can be done with drag-and-drop simplicity in the new, powerful Layout Manager. Error pages and other areas of site design are also easily handled in Gantry 5's administrative interface. You can change almost any aspect of a theme without breaking out a single editor.
+Hinzufügen und verschieben von Positionen, Größenänderungen von Blöcken und mehr können mit Drag-and-Drop im neuen, leistungsstarken Layout-Manager durchgeführt werden. Fehlerseiten und andere Bereiche des Website-Designs werden auch einfach in der Gantry 5 der Administration-Schnittstelle abgewickelt. Sie können fast jeden Punkt eines Templates ohne Code-Editor ändern.
 
-#### Powerful Menu Editor
+#### Leistungsstarker Menu Editor
 
-Change the way your site's menus look with Gantry 5's powerful Menu Editor. Quickly insert Particles, rearrange menu items, and add icons in seconds.
+Ändern Sie die Art und Weise wie Menüs auf Ihrer Website aussehen mit dem leistungsstarken Gantry 5 Menü-Editor. Fügen Sie schnell Partikel ein, ordnen Sie Menüpunkte neu an und applizieren Sie Symbole in Sekunden.
 
-#### New Outline System
+#### Das neue Outline-System (Variantenverwaltung)
 
-Theme overrides are now part of Gantry 5's Outline system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed. 
+Variable Themen (overrides) sind nun Teil des Gantry 5 Gliederungssystems, mit dem Sie ganz einfach Layouts, Einstellungen, Styles usw. erstellen, verwalten und ordnen können, je nach Bedarf. 
 
-#### Use SCSS, LESS or CSS
+#### Verwenden von SCSS, LESS oder CSS
 
-Gantry 5 has built-in support for SCSS and pure CSS, with the ability to support LESS.
+Gantry 5 verfügt über eine integrierte Unterstützung für SCSS und reines CSS, sowie für LESS.
