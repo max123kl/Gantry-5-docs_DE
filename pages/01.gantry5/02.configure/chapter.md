@@ -5,8 +5,8 @@ taxonomy:
     tag: [gantry5]
 ---
 
-### Chapter 2
+### Kapitel 2
 
-# Configuration
+# Konfiguration
 
-Discover how to configure your **Gantry-powered** site with ease.
+Entdecken Sie, wie Sie Ihre unter Gantry betriebene Website mit Leichtigkeit konfigurieren können.

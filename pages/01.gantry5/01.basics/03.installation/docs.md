@@ -56,7 +56,7 @@ IWenn Sie auf Ihrem Server Wordpress noch nicht installiert haben, können Sie d
 
 [plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
 
-Installieren Sie das **Gantry Framework-Paket** (die Datei ist ähnlich benannt wie `pkg_gantry5-v5.0.0.zip`), indem Sie im Joomla Back-End zu **Erweiterungen** → **Erweiterungen** → **Installieren** gehen. Mit **Durchsuchen** wählen Sie die heruntergeladene ZIP-Datei aus. Danach klicken Sie auf **Hochladen & Installieren**, um die Installation zu starten.
+Installieren Sie das **Gantry Framework-Paket** (die Datei ist ähnlich benannt wie `pkg_gantry5-v5.0.0.zip`), indem Sie im Joomla Back-End zu **Erweiterungen → Erweiterungen → Installieren** gehen. Mit **Durchsuchen** wählen Sie die heruntergeladene ZIP-Datei aus. Danach klicken Sie auf **Hochladen & Installieren**, um die Installation zu starten.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}
 

@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Erste Schritte
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -11,107 +11,108 @@ process:
     twig: true
 ---
 
-Ready to get started with Gantry 5? That's great! We are here to help.
+Bereit, um mit Gantry 5 loszulegen? Großartig! Wir sind hier um zu helfen.
 
-On this page, you will get some quick tips to help you hit the ground running with Gantry 5. You can find more detailed documentation for each of these tips by clicking the **Learn More** button at the bottom of each section.
+Auf dieser Seite finden Sie ein paar einführende Tipps, die Ihnen helfen, Gantry 5 Grundlagen kennen zu lernen. Die mehr detailliertere Dokumentation für jeden dieser Tipps erhalten Sie durch Klicken auf die Schaltfläche **Weitere Infos** am Ende jedes Abschnitts. 
 
-We hope you enjoy Gantry 5 every bit as much as we have enjoyed making it.
+Wir hoffen, dass Sie so viel Spaß mit jedem Bit von Gantry 5 haben werden, wie wir es während der Entwicklung hatten.
 
-## Installing Gantry 5 and the Hydrogen Theme
+## Installieren von Gantry 5 und des Hydrogen-Templates
 
-Gantry 5 is a framework by which Gantry-powered themes are made. In order for a Gantry theme to work, you will need to install both the **framework** and the **theme**. Doing this is not difficult at all.
+Gantry 5 ist ein Framework, mit dem Gantry-Themes erstellt werden. Um ein Gantry-Theme einsetzen zu können, muss sowohl das **Framework** als auch das **Theme** installiert sein. Das ist insgesamt eine einfache Sache.
 
-The first thing you need to do is download the latest build of Gantry 5 and Hydrogen. You can do so by clicking the buttons below, or via [GitHub](http://github.com/gantry/gantry5).
+Zuerst müssen Sie die neueste Version von Gantry 5 und das Hydrogen-Theme herunterladen indem Sie auf die Schaltfläche klicken, altenativ auch über [GitHub](http://github.com/gantry/gantry5).
 
-<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
+<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 und Hydrogen-Theme</a></div>
 
-Once you have the latest packages, installation is simple. We have provided a step-by-step guide in the **Installation** portion of this documentation.
+Sobald Sie die neusten Pakete haben, ist die Installation einfach. Eine Schritt-für-Schritt-Anleitung finden Sie im Abschnitt **Installation** dieser Dokumentation.
 
-<a href="../basics/installation" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
+<a href="../basics/installation" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Weitere Infos</a>
 
-## Accessing the Gantry Administrator
+## Zugriff auf den Gantry-Administrator
 
 {% set tab1 %}
 
 ![Administrator](../../configure/gantry-admin/admin_access_1.png) {.border .shadow}
 
-When you have installed and activated both the Gantry framework and Hydrogen, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components > Gantry 5 Templates** from the back end of Joomla.
+Wenn Sie sowohl Framework als auch Hydrogen-Theme installiert und aktiviert haben, können Sie auf unterschiedliche Weise auf die Gantry 5 Administration zugreifen. Am einfachsten navigieren Sie zu **Komponenten → Gantry 5 Themes** aus dem Back-End von Joomla. 
+
 
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+... erscheint demnächst!
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-Here, you will see a list of any installed Gantry-powered themes. You can **Preview** the theme from here or select **Configure** to go directly to the **Gantry Administrator** where you can get started modifying your Gantry-powered site.
+Hier finden Sie eine Liste mit allen installierten Gantry-Themes. Sie können ein Theme über **Preview** anschauen oder Sie wählen **Configure** um direkt zu dem **Gantry-Administrator** zu wechseln, wo man Änderungen an Ihrer Gantry-betriebenen Website vornehmen kann.
 
-## Navigating the Gantry 5 Administrator
+## Navigieren im Gantry 5 Administrator
 
-The Gantry Administrator has multiple administrative tools you can flip through to configure how your Gantry-powered theme looks and functions. Here is a quick breakdown of each of these tools, and what you can do with them.
+Der Gantry-Administrator hat mehrere Verwaltungstools. Sie können damit Ihr Gantry-betriebenes Theme in Aussehen und Funktion konfigurieren. Hier folgt eine kurze Beschreibung von jedem dieser Werkzeuge, und was man mit ihnen machen kann.
 
 {% set callout_items %}
 Menu Editor [8%, 62%, se]
-    : This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
+    : Dieses Verwaltungs-Panel erweitert die Möglichkeit des Menüsystems der Plattform. Sie können hier das Aussehen ändern und Menüpunkte ordnen bwz. neu einfügen, unabhängig vom integrierten Menü-Manager des CMS.
 
 About (Pictured) [8%, 69%, se]
-    : This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
+    : Diese Seite zeigt Ihnen einen schnellen Überblick zu dem aktuell angezeigten Theme einschließlich: Name, Versionsnummer, Ersteller, Support-Links, Funktionseigenschaften und vieles mehr.
 
 Platform Settings [8%, 76%, se]
-    : This button takes you to the CMS' settings page for Gantry 5. In Joomla, this is the **Permissions** configuration page.
+    : Mit dieser Taste gelangen Sie zur Einstellungsseite des CMS für Gantry 5. In Joomla, ist dies die Konfigurationsseite **Berechtigungen**.
 
 Clear Cache [8%, 88%, se]
-    : This button clears the cache files related to Gantry. This includes all of the temporary files outside of CSS and configuration information.
+    : Diese Schaltfläche löscht die Cache-Dateien, die Gantry 5 betreffen. Dies schließt alle temporären Dateien außerhalb des CSS und Konfigurationsinformationen ein.
 
 Outline Dropdown [17%, 2%, se]
-    : This dropdown makes it easy to quickly switch between outlines without having to leave the Gantry Administrator.
+    : Dieses Dropdown-Menü macht es einfach, schnell zwischen Outlines zu wechseln, ohne den Gantry-Administrator zu verlassen.
 
 Styles [17%, 23%, se]
-    : The **Styles** administrative panel gives you access to style-related settings for the outline. This includes things like theme colors, fonts, style presets, and more.
+    : Das **Styles** Verwaltungs-Panel ermöglicht Ihnen Zugriff auf stilbezogene Ein­stellungen. Dazu gehören Dinge wie Theme-Farben, Schriftarten, Stil-Presets und mehr.
 
 Settings [17%, 31%, se]
-    : The **Settings** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
+    : Dieses Verwaltungs-Panel bietet Ihnen die Möglichkeit, die Funktionseinstellungen des Themes zu konfigurieren. Dazu gehören die Einstellung von Standardwerten für Partikel sowie das Aktivieren/Deaktivieren einzelner Partikel.
 
 Layout [17%, 39%, se]
-    : The **Layout** administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
+    : Im **Layout** Verwaltungs-Panel konfigurieren  Sie das Layout für Ihr Theme. Das Erstellen von Modulpositionen, Partikeln, Abstandshaltern, und nicht-gerenderten Skripts, wie Google Analytics-Code, wird in diesem Fenster durchgeführt.
 
 {% endset %}
 
 {{ gravui_callout(page.media['getting_started_1.png'].url, callout_items, 'shadow border') }}
 
-1. **Menu Editor**: This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
+1. **Menu Editor**: Dieses Verwaltungs-Panel erweitert die Möglichkeit des Menüsystems der Plattform. Sie können hier das Aussehen ändern und Menüpunkte ordnen bwz. neu einfügen, unabhängig vom integrierten Menü-Manager des CMS.
 
-2. **About (Pictured)**: This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
+2. **About (Pictured)**: Diese Seite zeigt Ihnen einen schnellen Überblick zu dem aktuell angezeigten Theme einschließlich: Name, Versionsnummer, Ersteller, Support-Links, Funktionseigenschaften und vieles mehr.
 
-3. **Platform Settings**: This button takes you to the CMS' settings page for Gantry 5. In Joomla, this is the **Permissions** configuration page.
+3. **Platform Settings**: Mit dieser Taste gelangen Sie zur Einstellungsseite des CMS für Gantry 5. In Joomla, ist dies die Konfigurationsseite **Berechtigungen**.
 
-4. **Clear Cache**: This button clears the cache files related to Gantry. This includes all of the temporary files outside of CSS and configuration information.
+4. **Clear Cache**: Diese Schaltfläche löscht die Cache-Dateien, die Gantry 5 betreffen. Dies schließt alle temporären Dateien außerhalb des CSS und Konfigurationsinformationen ein.
 
-5. **Outline Dropdown**: This dropdown makes it easy to quickly switch between outlines without having to leave the Gantry Administrator.
+5. **Outline Dropdown**: Dieses Dropdown-Menü macht es einfach, schnell zwischen Outlines zu wechseln, ohne den Gantry-Administrator zu verlassen.
 
-6. **Styles**: This administrative panel gives you access to style-related outline settings. This includes things like theme colors, fonts, style presets, and more.
+6. **Styles**: Das **Styles** Verwaltungs-Panel ermöglicht Ihnen Zugriff auf stilbezogene Ein­stellungen. Dazu gehören Dinge wie Theme-Farben, Schriftarten, Stil-Presets und mehr.
 
-7. **Settings**: This administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
+7. **Settings**: Dieses Verwaltungs-Panel bietet Ihnen die Möglichkeit, die Funktionseinstellungen des Themes zu konfigurieren. Dazu gehören die Einstellung von Standardwerten für Partikel sowie das Aktivieren/Deaktivieren einzelner Partikel.
 
-8. **Layout**: This administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
+8. **Layout**: Im **Layout** Verwaltungs-Panel konfigurieren  Sie das Layout für Ihr Theme. Das Erstellen von Modulpositionen, Partikeln, Abstandshaltern, und nicht-gerenderten Skripts, wie Google Analytics-Code, wird in diesem Fenster durchgeführt.
 
-<a href="../configure/gantry-admin" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
+<a href="../configure/gantry-admin" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Weitere Infos</a>
 
-## What are Outlines, Particles, Atoms, etc.?
+## Was sind Outlines, Partikel, Atome, usw.?
 
-Because Gantry 5 is so different from any version of Gantry before it, we came up with some terms to help make sense of the relationships Gantry's new features have with one-another. Here is a quick breakdown of commonly used terms related to Gantry 5.
+Da Gantry 5 so verschieden von jeder früheren Version von Gantry ist, sind einige Begriffserklärungen nötig, die helfen Sinn zu verstehen die Beziehungen zwischen den neuen Gantry-Funktionen untereinander haben. Hier ist eine kurze Übersicht der häufigsten verwendeten Begriffe in Gantry 5.
 
-| Term     | Definition                                                                                                                                             |
+| Begriff     | Definition                                                                                                                                             |
 | :-----   | :-----                                                                                                                                                 |
-| Outline  | A configurable style used in one or more areas of your site. It serves as the container on which a page's style, settings, and layout are set.         |
-| Particle | A typically small block of data used on the front end. It acts a lot like a widget/module, but can be easily configured in the Gantry 5 Administrator. |
-| Atom     | A type of Particle that contains non-rendered data, such as custom scripting (JS, CSS, etc.) or analytics scripts for traffic tracking.                |
+| Outline  | Eine konfigurierbarer Stil, der in einem oder mehreren Bereichen Ihrer Site verwendet wtrd. Es dient als Container, in dem Styles, Einstellungen, Layout und Zuweisungen festgelegt werden.         |
+| Partikel | Typischerweise ein kleiner Datenblock, der im Front-End eingesetzt wird. Es wirkt sich wie ein Widget/Modul aus, kann aber leicht im Gantry 5 Administrator konfiguriert werden. |
+| Atom     | Eine spezielle Art von Partikel, der nicht-gerenderten Code, wie benutzerdefinierte Skripts (JS, CSS, usw.) oder Analyse Skripte für Traffic Tracking enthält.                |
 
-<a href="../basics/terminology" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
+<a href="../basics/terminology" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Weitere Infos</a>
 
-## Where to Get Help
+## Wo Sie Hilfe bekommen
 
 A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
-[Documentation](http://docs.gantry.org) is also available, and being continually added to as development progresses. Is something missing? You can contribute to the documentation through GitHub.
+Eine [Documentation](http://docs.gantry.org) ist ebenfalls verfügbar und wird ständig je nach Entwicklungsfortschritt ergänzt. Fehlt Ihnen noch etwas? Sie können selbst zu der Dokumentation über GitHub beitragen.
