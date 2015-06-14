@@ -1,24 +1,26 @@
 [![Join the chat at https://gitter.im/gantry/gantry5](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gantry/gantry5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Gantry Documentation
+# Deutsche Gantry Dokumentation
 
-This repository contains the source of the [Gantry](https://github.com/gantry/gantry5) documentation, currently accessible at [http://docs.gantry.org](http://docs.gantry.org).
+Das Repository enthält den Quellcode der [Gantry-Dokumentation](https://github.com/gantry/gantry5), die auf [http://docs.gantry.org](http://docs.gantry.org) zu finden ist.
 
-The documentation is contained in [Pages/](Pages) and is structured in folders (chapters), exactly as you see them on the main website. The entirety of the repo found here is intended to act as the `user/` folder in a [Grav](http://getgrav.org) install. This repo contains themes, configuration files, and settings that enable the documentation to be presented in the way they do on [the documentation site](http://docs.gantry.org).
+Die Dokumentation ist in [Pages/](Pages) und seinen Unterordnern enthalten. Die Ordner-Struktur entspricht genau der Kapitel-Struktur wie sie auf der Haupt-Website zu sehen ist. Das gesamte, hier gefundene Repo ist geeignet als `user/` Verzeichnis in einer [Grav](http://getgrav.org) Installation zu fungieren. Das Repo enthält Themes, Konfigurationsdateien und Einstellungen, die es möglich machen die Dokumentation in der gleichen Optik zu präsentieren wie sie der [Dokumentationswebsite](http://docs.gantry.org) erfolgt.
 
-You can read all of the documentation within (as it's just in plain text files) marked up with [Markdown](http://daringfireball.net/projects/markdown/).
+Die gesamte Dokumentation (alles einfache Textdateien) ist lesbar und mit der [Markdown](http://daringfireball.net/projects/markdown/)-Auszeichnungssprache formatiert.
 
-In order to load a local copy and create working pages, we recommend checking out [Grav's documentation](http://learn.getgrav.org/) as it will give you the information you need to understand the documentation file structure and syntax.
+Eine lokale Kopie und eigene, funktionierende Seiten erstellen - dann empfehlen wir die [Grav](http://learn.getgrav.org/)-Dokumentation zu lesen. Sie enthält die Informationen, die Sie benötigen um Dateistruktur und Syntax zu verstehen.
 
-If you would like a local copy of the documentation, you can either [download it](https://github.com/gantry/docs/archive/master.zip) or you can clone the repository by running the following command:
+Wenn Sie eine lokale Kopie der Dokumentation möchten, können Sie entweder [herunterladen](https://github.com/gantry/docs/archive/master.zip) oder Sie können das Repository mit dem folgenden Befehl zu klonen:
 
 ~~~ .bash
 git clone git://github.com/gantry/docs gantry-docs
 ~~~
 
 
-Contributing
+Mitarbeit
 ------------
+Mitarbeit an der Dokumentation ist sehr einfach. 
+
 Contributing to the documentation is very simple. Feel free to fork the repository, add your changes and give back by issuing a pull request. You can even edit the docs directly on GitHub, without having to ever download the files. Make sure to follow the conventions before issuing a pull request.
 
 You are also very welcome to make any suggestions or report any kind of problem with the documentation by opening a new [Issue](https://github.com/gantry/docs/issues/new).

@@ -43,7 +43,7 @@ Das Paket, das Sie zur Installation auswählen wird auf unterschiedliche Weise b
 
 >>>>> Denken Sie daran , dass das Gantry Framework für alle Gantry-Themes auf Ihrem Computer installiert sein muss.
 
-IWenn Sie auf Ihrem Server Wordpress noch nicht installiert haben, können Sie das **RocketLauncher** Paket benutzen. Es enthält eine vollständige vorkonfigurierte Gantry-Umgebung und ist im Wesentlichen eine vollständige WordPress-Installation. Wählen Sie die für Sie beste Download-Option. Wir empfehlen **RocketLauncher** für erstmalige Wordpress-Installationen.
+Wenn Sie auf Ihrem Server Wordpress noch nicht installiert haben, können Sie das **RocketLauncher** Paket benutzen. Es enthält eine vollständige vorkonfigurierte Gantry-Umgebung und ist im Wesentlichen eine vollständige WordPress-Installation. Wählen Sie die für Sie beste Download-Option. Wir empfehlen **RocketLauncher** für erstmalige Wordpress-Installationen.
 
 <a href="http://www.gantry-framework.org/download#wordpress" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
 
