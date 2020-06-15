@@ -10,4 +10,4 @@ taxonomy:
 
 # Gantry 5
 
-A Complete Guide to the Gantry 5 Framework
+Ein vollständiges Handbuch zum Gantry 5 Framework.
