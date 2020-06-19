@@ -5,26 +5,26 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for Joomla, WordPress, and Grav.
+Gantry 5 ist die neueste Generation eines leistungsstarken, flexiblen Open-Source-Frameworks zur Erstellung von Themes, das derzeit für Joomla, WordPress und Grav verfügbar ist.
 
-One of the primary goals behind Gantry 5's development has been to make it easier for non-developers to get a lot more done without ever having to open a single code editor or directly alter any files.
+Eines der Hauptziele bei der Weiterentwicklung von Gantry 5 ist, es Nicht-Entwicklern leichter zu machen, wesentlich mehr Aufgaben selbst zu erledigen, ohne jemals einen Code-Editor aufrufen oder Dateien direkt ändern zu müssen.
 
-In this guide, we will briefly introduce you to what Gantry is, and how it can make managing your site's theme incredibly easy.
+In diesem Handbuch stellen wir Ihnen kurz vor, was Gantry ist und wie es die Verwaltung des Designs Ihrer Website unglaublich einfach machen kann.
 
-## What is Gantry?
-Gantry 5 was made from the ground up to make life easier for both the developer and the user. Themes made with Gantry 5 share a consistent user experience, reducing the learning curve for both parties. So, whether you are managing one site or fifty, the process for managing your theme is the same no matter how many different themes you use.
+## Was ist Gantry?
+Gantry 5 wurde von Grund auf neu entwickelt, um sowohl dem Entwickler als auch dem Anwender das Leben zu erleichtern. Die mit Gantry 5 erstellten Themes bieten eine gemeinsame Benutzeroberfläche, wodurch die Lernkurve für beide Seiten reduziert wird. Unabhängig davon, ob Sie eine oder fünfzig Websites betreuen, ist der Ablauf für die Bearbeitung Ihres Designs immer gleich, unabhängig davon, wie viele verschiedene Themes Sie verwenden.
 
-In particular there is a focus on using a GUI to design your site rather than having to code everything by hand. A lot of options can be changed in the administration area of the Template Framework and for the more adventurous or web developers amongst you there is a lot of scope to alter styling and other things because Gantry is based on a text file configuration (YAML) and editing these text files is easy.
+Der Schwerpunkt liegt vor allem auf der Anwendung einer GUI zur Gestaltung Ihrer Website, damit Sie nicht alles von Hand programmieren müssen. Viele Optionen können im Administrationsbereich des Template Frameworks geändert werden. Für die fortgeschrittenen Webentwickler unter Ihnen gibt es viele Möglichkeiten, das Styling und andere Dinge zu ändern, da Gantry auf einer Textdatei-Konfiguration (YAML) basiert, deren Bearbeitung einfach ist.
 
-Gantry 5 is really easy to use. It has drag-and-drop functionality that enables you to dramatically change the layout of your site in seconds without ever having to even touch your keyboard.
-Gantry is a theming framework. To better define Gantry's role in your website, here are some helpful definitions:
+Gantry 5 ist wirklich einfach zu bedienen. Es verfügt über Drag-and-Drop-Funktionalität, mit der Sie das Layout Ihrer Website in Sekundenschnelle dramatisch verändern können, ohne Ihre Tastatur auch nur berühren zu müssen.
+Gantry ist ein Themes-Framework. Um die Funktion von Gantry auf Ihrer Website besser zu bestimmen, finden Sie hier einige hilfreiche Definitionen:
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="CMS"]
 
-If your website is a house, then the content management system **CMS** is the foundation. This is where your data is stored and managed. It is the system you use to add content such as posts, articles, pages, images, and more.
+Wenn Ihre Webseite ein Haus wäre, dann ist das Content Management System **CMS** das Fundament. Hier werden Ihre Daten abgelegt und verwaltet. Es ist das System, das Sie verwenden, um Inhalte wie Beiträge, Artikel, Seiten, Bilder und mehr einzufügen.
 
-Gantry currently works on three content management systems, including:
+Gantry ist derzeit für drei Content Management Systeme verfügbar:
 
 * WordPress
 * Joomla
@@ -33,131 +33,131 @@ Gantry currently works on three content management systems, including:
 [/ui-tab]
 [ui-tab title="Framework"]
 
-The framework is the woodwork that gives your house structure such as walls, windows, doorways, and a roof. It is the tool you use to manage how your theme is applied, when and where content is displayed, and the general layout of your home.
+Das Framework ist der Rohbau, der Ihrem Haus Struktur verleiht, wie Wände, Fenster, Türen und ein Dach. Es ist das Instrument, mit dem Sie festlegen, wie Ihr Design angewendet wird, wann und wo Inhalte angezeigt werden und wie Ihr Haus im Allgemeinen aussieht.
 
-In the case of Gantry, the framework is what you interact with on the back end. It gives you the ability to set colors, layouts, and just about any other aspect that affects the way the site looks.
+Bei Gantry ist das Framework das System, mit dem Sie im Backend kommunizieren. Es ermöglicht Ihnen die Auswahl von Farben, Layouts und fast allen anderen Parametern, die das Aussehen der Website beeinflussen.
 
-Together, they work together to make your website function, look, and feel exactly as you need it to.
+Es verarbeitet die Elemente simultan, damit Ihre Website genau so funktioniert, aussieht und sich genau so verhält, wie Sie es erwarten.
 
-A good framework will give you as close to complete control over your site's visual layout as possible. Virtually everything the user sees outside of the content being served directly from the content management system is managed by the framework.
+Ein gutes Framework ermöglicht Ihnen eine nahezu vollständige Kontrolle über das visuelle Erscheinungsbild Ihrer Website. Praktisch alles, was der Benutzer außerhalb der Inhalte sieht, die direkt aus dem Content-Management-System angeboten werden, wird durch das Framework verwaltet.
 
 [/ui-tab]
 [ui-tab title="Theme"]
 
-The theme or template is what the look and feel of your site is based on. In the house example, it is the trim, paint, door knobs, light fixtures, and pretty much every little detail that gives the house its unique look and feel.
+Das Theme oder das Template ist die Vorlage, auf der das Erscheinungsbild Ihrer Website basiert. Im Hausbeispiel sind es die Zierleisten, der Anstrich, die Türgriffe, die Leuchten und so ziemlich jedes kleine Detail, die dem Haus sein unverwechselbares Aussehen und die Atmosphäre verleihen.
 
-For websites using a Gantry-powered theme, the theme take advantage of the foundation created by the framework. This enables you to configure several different gantry-powered themes with the same, consistent user experience across themes and platforms.
+Bei Websites, die ein Gantry-basiertes Theme verwenden, profitiert das Theme von dem durch das Framework erstellten Fundament. Dadurch können Sie unterschiedliche Gantry-basierte Themes mit der gleichen, konsistenten Benutzerführung über Themes und Plattformen hinweg konfigurieren.
 
 [/ui-tab]
 [/ui-tabs]
 
-## What are Outlines, Particles, Atoms, etc.? (github + me)
+## Was sind Outlines, Partikel, Atoms, usw.? (github + me)
 
-Gantry uses atomic names for their different features such as the Hydrogen and Helium Template. In particular this is helpful in naming Gantry objects such as Particles and Atoms.
-Because Gantry 5 is so different from any version of Gantry before it, we came up with some terms to help make sense of the relationships Gantry's new features have with one-another. Here is a quick breakdown of commonly used terms related to Gantry 5.
+Gantry verwendet einfache Namen für seine verschiedenen Features, wie das Hydrogen- und Helium-Template. Das ist bei der Bezeichnung von Gantry-Objekten wie Partikeln und Atomen sehr hilfreich.
+Da sich Gantry 5 von allen früheren Gantry-Versionen erheblich unterscheidet, haben wir einige neue Begriffe definiert. Diese sollen helfen, die Zusammenhänge zwischen den neuen Gantry-Funktionen zu verstehen. Hier ist eine kurze Übersicht der gebräuchlichsten Begriffe hinsichtlich Gantry 5.
 
-| Term     | Description                                                                                                                                                                                                                                    |
+| Begriff   | Beschreibung                                                                                                                                                                                                                                    |
 | :----    | :-----                                                                                                                                                                                                                                         |
-| **Outline**  | A configurable style used in one or more areas of your site. It serves as the container on which a page's style, settings, and layout are set. This is equivalent to a template. This is how Gantry lays out the different elements on a page. |
-| **Particle** | A typically small block of data used on the front end. It acts a lot like a widget/module, but can be easily configured in the Gantry 5 Administrator.                                                                                         |
-| **Atom**     | A type of Particle that contains non-rendered data, such as custom scripting (JS, CSS, etc.) or analytics scripts for traffic tracking.                                                                                                        |
-| **Nucleus**  | This is Gantry 5’s own front-end framework. It is a very simple and lightweight CSS/SCSS-only framework.                                                                                                                                       |
+| **Outline**  | Ein konfigurierbarer Style, der in einem oder mehreren Bereichen Ihrer Website verwendet wird. Er dient als Container, in dem der Seitenstil, die Seiteneinstellung und das Layout festgelegt werden. Das entspricht einem Template. Auf diese Weise legt Gantry die verschiedenen Elemente auf einer Seite an. |
+| **Partikel** | Typischerweise handelt es sich dabei um einen kleinen Daten-Block, der auf dem Frontend verwendet wird. Er verhält sich ähnlich wie ein Widget/Modul, kann aber im Gantry 5 Administrator einfach konfiguriert werden.                                                                                         |
+| **Atom**     | Eine besondere Form von Partikel, der nicht gerenderte Daten enthält, wie z.B. individuelle Skripte (JS, CSS usw.) oder Analyse-Skripte für die Überwachung des Datenverkehrs.                                                                                                        |
+| **Nucleus**  | Dabei handelt es sich um das eigene Frontend-Framework von Gantry 5. Es handelt sich um ein sehr einfaches und schlankes, nur aus CSS/SCSS-Dateien bestehendes Framework.                                                                                                                                       |
 
-You can find a full, more detailed breakdown of terms used in Gantry 5 in our [Terminology](../terminology/) guide.
+Eine vollständige, detailliertere Übersicht über die in Gantry 5 verwendeten Begriffe finden Sie in unserem [Terminologie](../terminology/)-Leitfaden.
 
-One reason Gantry decided to give these elements unique names is to create a consistent user experience across multiple platforms. For example, terms like module (Joomla) and widget (WordPress) are used to describe modular content blocks that appear on the front end. In Gantry, not only are Particles managed differently than either modules or widgets, but giving them either name would cause confusion. So, we opted to create our own naming scheme instead.
+Ein Grund, warum Gantry sich entschieden hat, diesen Elementen eindeutige Namen zu geben, ist die Schaffung einer konsistenten Benutzeroberfläche über mehrere Plattformen hinweg. Zum Beispiel werden Begriffe wie Modul (Joomla) und Widget (WordPress) verwendet, um modulare Inhaltsblöcke zu beschreiben, die auf dem Frontend erscheinen. In Gantry werden Partikel nicht nur anders verwaltet als entweder Module oder Widgets, sondern es würde auch Verwirrung stiften, ihnen einen der beiden Namen zu geben. Deshalb haben wir uns entschieden, stattdessen ein eigenes Namensschema zu schaffen.
 
-## Meet the Gantry Administrator
+## Den Gantry Administrator aufrufen
 
 ![Admin](intro_admin.jpeg?classes=shadow,border)
 
-The back end of Gantry is packed with features to help you configure and customize virtually every aspect of your website. While there are some minor differences in the panel(s) that appear in the administrator from CMS to CMS, the experience is consistent no matter which CMS you are using.
+Das Backend von Gantry ist vollgepackt mit Funktionen, mit denen Sie praktisch jeden Aspekt Ihrer Website konfigurieren und anpassen können. Es gibt zwar einige geringfügige Unterschiede in dem/den Panel(s), die im Administrator von CMS zu CMS sichtbar sind, aber die Bedienung ist einheitlich, egal welches CMS Sie verwenden.
 
-There are several ways to access the Gantry 5 administrator, depending on which CMS you are using. We have a [full guide here](../../configure/gantry-admin) to help you find the way that's best for you.
+Es gibt verschiedene Möglichkeiten, auf den Gantry 5 Administrator zu gelangen, je nachdem, welches CMS Sie verwenden. Wir haben hier ein [vollständiges Handbuch](../../configure/gantry-admin), das Ihnen helfen soll, den für Sie am besten geeigneten Weg zu finden.
 
-Here are some of the administrative panels you will find:
+Hier sind einige der administrativen Panels, die Sie aufrufen können:
 
-#### Styles
+#### Stile
 
 ![Admin](intro_style.jpeg?classes=shadow,border)
 
-The **Styles** administrative panel gives you the ability to quickly and easily configure settings related to the appearance of the Gantry-powered theme. This includes being able to switch between pre-configured presets, as well as to refine the look of an outline using a set of style settings linked to the theme.
+Das administrative Panel **Stile** ermöglicht Ihnen die schnelle und einfache Konfiguration von Einstellungen, die sich auf das Erscheinungsbild des Gantry-basierten Designs beziehen. Dazu gehört die Möglichkeit, zwischen vorkonfigurierten Presets zu wechseln und das Aussehen einer Outline mit Hilfe einer Reihe von Stileinstellungen, die mit dem Theme verknüpft sind, zu verfeinern.
 
-If you want to change the color scheme of your site, its fonts, or the animation of your menu's dropdown feature, this is where you would go.
+Wenn Sie das Farbschema Ihrer Website, die Schriftarten oder die Animation der Dropdown-Funktion Ihres Menüs ändern möchten, sind Sie hier richtig.
 
-<div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Styles</a></div>
+<div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über Styles erfahren</a></div>
 
-#### Particle Defaults
+#### Partikel Standard
 
 ![Admin](intro_particle.jpeg?classes=shadow,border)
 
-The **Particle Defaults** panel is really useful if you want to give your particles global default settings. By default, it only appears in the **Base Outline** and any changes you make here become the particle's default setting. For the most part, you'll go here to set things that are static like the logo and copyright information.
+Das Panel **Partikel Standard** ist ausgesprochen nützlich, wenn Sie Ihren Partikeln globale Standardeinstellungen geben wollen. In der Regel erscheint es nur in der **Basis Outline** und alle Änderungen, die Sie hier vornehmen, werden zur Standardeinstellung des Partikels. In den meisten Fällen werden Sie hier Dinge einstellen, die statisch sind, wie das Logo und die Copyright-Informationen.
 
-It's also a great place to go if you want to globally turn a particular type of particle **on** or **off**. This is useful if you have a custom particle for a temporary event on your site, such as a sale announcement. You have this particle places in several different places across multiple layouts.
+Es ist auch eine gute Wahl, wenn Sie eine bestimmte Art von Partikeln global **an** oder **aus** schalten wollen. Diese Option ist sinnvoll, wenn Sie einen benutzerdefinierten Partikel für ein temporäres Event auf Ihrer Website verwenden wollen, wie z.B. eine Verkaufsankündigung. Sie haben diesen Partikel an mehreren verschiedenen Stellen in verschiedenen Layouts platziert.
 
-You need to shut this particle off so it doesn't appear on your site after the sale has concluded. You can go through each layout individually, removing the particle one-by-one, or you could shut the particle off in the **Particle Defaults** panel so it disappears on your pages. Turning it back **on** for your next sale will make it reappear.
+Sie müssen diesen Partikel ausschalten, um zu verhindern, dass er nach dem Ende des Angebots auf Ihrer Website erscheint. Sie könnten jede Seite einzeln durchgehen und den Partikel nacheinander entfernen, oder Sie könnten den Partikel in dem Panel **Partikel Standard** ausschalten, sodass er auf Ihren Seiten verschwindet. Wenn Sie ihn bei Ihrer nächsten Verkaufsaktion mit **an** wieder aktivieren, erscheint er erneut auf Ihren Seiten.
 
-<div align="center"><a href="../configure/particle-defaults" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Particle Defaults</a></div>
+<div align="center"><a href="../configure/particle-defaults" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über Partikel-Standards erfahren</a></div>
 
-#### Page Settings
+#### Seiten-Einstellungen
 
 ![Admin](intro_pagesettings.jpeg?classes=shadow,border)
 
-Want to add Google Analytics code to an outline? How about setting a favicon for your site? You can do this and a lot more in the **Page Settings** admin panel. This panel is where you can apply meta tags, JavaScript / CSS files, and more to your page. It's the go-to spot for adding scripts in the header and footer of your site.
+Möchten Sie Google Analytics-Code zu einer Outline hinzufügen? Wie wäre es, ein Favicon für Ihre Website festzulegen? Sie können diese Einstellungen und vieles mehr im Verwaltungsbereich **Seiten-Einstellungen** vornehmen. In diesem Panel können Sie Meta-Tags, JavaScript-/CSS-Dateien und vieles mehr auf Ihrer Webseite einsetzen. Es ist die zentrale Schaltstelle für das Hinzufügen von Skripten im Header und Footer Ihrer Website.
 
-You can put these adjustments in your **Base Outline** to have them apply globally, or in an individual **Outline** to have them only apply to the pages assigned to the outline.
+Sie können diese Anpassungen in Ihre **Basis Outline** einfügen, damit sie global gelten oder in eine individuelle **Outline**, damit sie nur für die der Outline zugewiesenen Seiten gelten.
 
-<div align="center"><a href="../configure/page-settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Page Settings</a></div>
+<div align="center"><a href="../configure/page-settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über Seiten-Einstellungen erfahren</a></div>
 
 #### Layout Manager
 
 ![Admin](intro_layout.jpeg?classes=shadow,border)
 
-Don't like where something is on the page? Just click and drag it where you want it to go from the **Layout Manager**. You can add things, remove them, resize them, create module/widget positions, and configure particles without touching the keyboard.
+Ihnen missfällt, wo auf der Seite ein bestimmtes Element steht? Klicken Sie einfach darauf und ziehen Sie es im **Layout Manager** mit der Maus auf die gewünschte Position. Sie können Dinge hinzufügen, entfernen, die Größe ändern, Modul-/Widget-Positionen erstellen und Partikel konfigurieren, ohne die Tastatur zu berühren.
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
-Things like your logo, copyright information, branding, social icons, and more can also be adjusted directly from the Layout Manager.
+Elemente wie Ihr Logo, Copyright-Informationen, Branding, Social-Symbole und mehr können ebenfalls direkt vom Layout-Manager aus angepasst werden.
 
-Worried you might get something wrong? You can undo and redo any actions taken in the Layout Manager during that session with a click of the mouse.
+Befürchten Sie, Sie könnten etwas falsch machen? Sie können alle während einer Sitzung im Layout-Manager durchgeführten Aktionen mit einem Mausklick rückgängig machen und wiederherstellen.
 
-<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Layout Manager</a></div>
+<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über den Layout-Manager erfahren</a></div>
 
-#### Assignments
+#### Zuweisungen
 
 ![Admin](intro_assignments.jpg?classes=shadow,border)
 
-The **Assignments** panel gives you the ability to assign **outlines** to specific pages or categories of content. This works a little differently from platform to platform, however the basic function remains the same. As an example, if you create an **outline** specifically for the home page of your site, you can assign that outline to the home page here.
+Das Panel **Zuweisungen** bietet Ihnen die Möglichkeit, bestimmten Seiten oder Inhaltskategorien **Outlines** zuzuweisen. Das funktioniert von einer Plattform zur anderen etwas anders, die Grundfunktion bleibt jedoch die gleiche. Wenn Sie beispielsweise eine **Outline** speziell für die Startseite Ihrer Website erstellen, können Sie diese hier der Startseite zuweisen.
 
-<div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Assignments</a></div>
+<div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über Zuweisungen erfahren</a></div>
 
-#### Menu Editor
+#### Menü-Editor
 
 ![Admin](intro_menu.jpg?classes=shadow,border)
 
-Gantry 5's Menu Editor is a quick and easy way to non-destructively control the way menus appear on the front end of your site. You can rearrange menu items with drag-and-drop ease, inject particles and more.
+Der Menü-Editor von Gantry 5 bietet eine schnelle und unkomplizierte Methode zur nicht-destruktiven Kontrolle der Darstellung von Menüs im Frontend Ihrer Website. Sie können Menüelemente einfach per Drag & Drop neu positionieren, Partikel einfügen und vieles mehr.
 
-It basically takes your menu(s) from the CMS and decorates them before passing them along to the visitor.
+Im Grunde genommen nimmt er Ihre Menüs aus dem CMS und gestaltet sie um, bevor er sie an den Betrachter weiterleitet.
 
 [plugin:youtube](https://www.youtube.com/watch?v=Ny0KgUz5JH8)
 
-Everything you do in Gantry 5 is non-destructive, so your content and menus are left exactly the way they were, so you don't have to worry about doing anything that would disrupt your site's permanent makeup within the Gantry 5 Administrator.
+Alles, was Sie in Gantry 5 ändern, ist nicht-destruktiv, d.h. Ihre Inhalte und Menüs werden genau so belassen, wie sie waren. Sie müssen sich also keine Sorgen machen, wenn Sie irgendetwas tun, das das endgültige Erscheinungsbild Ihrer Website innerhalb des Gantry 5-Administrators stören würde.
 
-<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Menu Editor</a></div>
+<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über den Menü-Editor erfahren</a></div>
 
 #### Outlines
 
 ![Outlines](../../configure/outlines/outline_1.png?classes=shadow,border)
 
-The **Outlines** admin panel is a global starting point for creating, duplicating, and accessing your outlines.
+Das Administrator-Panel **Outlines** ist ein globaler Startpunkt für die Erstellung, Duplizierung und den Zugriff auf Ihre Outlines.
 
-You'll notice on this page that there are two different kinds of outlines: **Standard** and **System**. A standard outline includes anything you might assign to a typical page. This includes the **Base Outline** which serves to set global style and settings defaults for your theme, and outlines that you assign to normal pages such as the home page, or to use as a default for your content pages.
+Sie werden auf dieser Seite feststellen, dass es zwei verschiedene Arten von Outlines gibt: **Standard** und **System**. Eine Standard-Outline enthält alles, was Sie einer typischen Seite zuordnen können. Dazu gehört die **Basis-Outline**, mit der Sie globale Stil- und Einstellungsstandards für Ihr Theme festlegen können, sowie Outlines, die Sie normalen Seiten wie der Homepage zuweisen oder die Sie als Standard für Ihre Inhaltsseiten verwenden können.
 
 ![Outlines](../../configure/outlines/outline_5.png?classes=shadow,border)
 
-**System Outlines** are integrated into Gantry's core. They are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
+**System-Outlines** sind in den Kern von Gantry eingebaut. Sie sind mit bestimmten Seitentypen, wie Error oder Offline, verknüpft. Diese Outlines können bearbeitet, aber nicht erstellt, umbenannt oder gelöscht werden, da sie den Kern von Gantry bilden.
 
-This panel enables you to manage your outlines in a number of ways, and we'll break them down for you now.
+Dieses Panel ermöglicht es Ihnen, Ihre Outlines auf unterschiedliche Arten zu bearbeiten und wir werden diese jetzt näher analysieren.
 
 #### Extras
 
@@ -179,52 +179,52 @@ This panel enables you to manage your outlines in a number of ways, and we'll br
 [/ui-tab]
 [/ui-tabs]
 
-The **Extras** dropdown gives you quick access to a few options that are handy to have instant access to throughout the administrator. This includes the **Development Mode** toggle switch, a **Clear Cache** shortcut, and a shortcut to **Platform Settings** which takes you to a platform-specific settings page for Gantry.
+Die Dropdown-Auswahl **Extras** gibt Ihnen raschen Zugriff auf einige praktische Optionen, die der gesamte Administrator direkt nutzen kann. Dazu gehören der Umschalter **Entwicklungsmodus**, ein **Cache leeren** sowie ein **Plattform-Einstellungen** Auswahlfeld, das Sie zu einer plattformspezifischen Konfigurationsseite für Gantry führt.
 
-<div align="center"><a href="../configure/extras" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Extras</a></div>
+<div align="center"><a href="../configure/extras" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über Extras erfahren</a></div>
 
-## Particles System
+## Partikel-System
 
-Thanks to Gantry's particles system, the developer can create content blocks for your site that you can add, remove, and update without fear of breaking the site or having to deal with a single line of code. Simple fields and toggle switches make it easy to find and change virtually anything on your site.
+Dank des Partikel-Systems von Gantry kann ein Entwickler Inhaltsblöcke für Ihre Website erstellen, die Sie hinzufügen, entfernen und aktualisieren können, ohne Angst haben zu müssen, die Website zu beschädigen oder sich mit einer einzigen Codezeile befassen zu müssen. Einfache Eingabefelder und Umschalter machen es leicht, praktisch alles auf Ihrer Website zu finden und zu ändern.
 
-This means you can make less calls to the developer for simple changes. Just log in, access the Gantry 5 Administrator, make your changes, and save.
+Das bedeutet, dass Sie für einfachere Anpassungen seltener mit dem Entwickler sprechen müssen. Melden Sie sich einfach an, greifen Sie auf den Gantry 5 Administrator zu, nehmen Sie Ihre Änderungen vor und speichern Sie.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-Are you familiar with Joomla's module system? Gantry 5 integrates completely with Joomla so you can continue to use module positions just as you always have. It's super easy to create a new module position in seconds using the Layout Manager and Menu Editor.
+Kennen Sie sich mit dem Modul-System von Joomla aus? Gantry 5 integriert sich vollständig in Joomla, so dass Sie Modulpositionen weiterhin wie gewohnt verwenden können. Es ist super einfach, eine neue Modulposition in wenigen Augenblicken mit dem Layout-Manager und dem Menü-Editor zu erstellen.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Are you familiar with WordPress' widget system? Gantry 5 integrates completely with WordPress so you can continue to use widget positions just as you always have. It's super easy to create a new widget section in seconds using the Layout Manager.
+Kennen Sie sich mit dem Widget-System von WordPress aus? Gantry 5 integriert sich vollständig in WordPress, so dass Sie Widget-Positionen weiterhin wie gewohnt benutzen können. Es ist super einfach, mit dem Layout-Manager in wenigen Augenblicken eine neue Widget-Sektion zu erstellen.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav is in a unique position to take full advantage of particles in Gantry 5. In addition to having the ability to add particles wherever you would like on the page, Grav users can take advantage of a new **Positions** area of the administrator that enables you to create positions that can be host to multiple, stacked particles that can be placed in any layout with ease.
+Die Grav ist in einer eindeutigen Ausgangsposition, um die Vorteile der Partikel in Gantry 5 voll auszunutzen. Neben der Möglichkeit, an beliebiger Stelle auf der Seite Partikel hinzuzufügen, können Grav-Benutzer die Vorteile des neuen Administrationsbereichs **Positionen** nutzen, mit dem Sie Positionen erstellen können, die mehrere, gestaffelte Partikel aufnehmen können, die problemlos in jedem Layout platziert werden können.
 
-This is a big time saver and an addition that creates an advanced layout system typically reserved for larger content management systems like Joomla to Grav.
+Das spart mit Grav viel Zeit und schafft ein modernes Layout-System, das normalerweise größeren Content-Management-Systemen wie Joomla vorbehalten ist.
 
 [/ui-tab]
 [/ui-tabs]
 
-The particles system in Gantry 5 gives its themes an extraordinary flexibility. It's easier for developers to create custom features and apply them directly to your site in a way that exists apart from the content management system. For end users, it's a simple and easy way to add content to your pages. You can fill out a form instead of opening a code editor. You can pack your site with content and features without ever having to see a single line of code.
+Das Partikel-System in Gantry 5 verleiht seinen Themes eine außerordentliche Flexibilität. Für Entwickler ist es einfacher, benutzerdefinierte Elemente zu erstellen und sie direkt auf Ihrer Website anzuwenden - ganz unabhängig vom Content-Management-System. Für Endbenutzer ist es eine einfache und leichte Möglichkeit, Inhalte zu Ihren Seiten hinzuzufügen. Sie können ein Formular ausfüllen, anstatt einen Code-Editor zu öffnen. Sie können Ihre Website mit Inhalten und Funktionen vollpacken, ohne auch nur eine einzige Zeile Code ansehen zu müssen.
 
-<div align="center"><a href="../particles/particles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particles System</a></div>
+<div align="center"><a href="../particles/particles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Partikel-System erfahren</a></div>
 
-## Where to Get Help
+## Wo kann man Hilfe finden?
 
-If you have any problems at all with Gantry, please feel free to let us know by submitting an issue on the [GitHub project](http://github.org/gantry/gantry5), or by reaching out via the [Gitter](http://gitter.im/gantry/gantry5) chat.
+Wenn Sie irgendwelche Probleme mit Gantry haben, können Sie uns gerne informieren, indem Sie ein Issue über das [GitHub-Projekt](http://github.org/gantry/gantry5) verfassen oder uns über den [Gitter-Chat](http://gitter.im/gantry/gantry5) kontaktieren.
 
-If you would like to check out the latest Gantry builds to get a glimpse at the latest developments in the Gantry project, we invite you to check out our CI Builds available for Joomla, WordPress, and Grav. Additionally, we have CI builds available for download of the free Hydrogen theme.
+Falls Sie sich die neuesten Gantry-Versionen ansehen möchten, um einen Überblick über die neuesten Entwicklungen im Gantry-Projekt zu erhalten, laden wir Sie ein, sich unsere CI-Builds anzusehen, die für Joomla, WordPress und Grav verfügbar sind. Außerdem stehen CI-Builds für das kostenlose Theme „Hydrogen“ zum Download bereit.
 
-A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
+Mit [Gitter](https://gitter.im/gantry/gantry5) wurde ein Chat-Room eingerichtet, in dem Sie sich mit Entwicklern, Autoren und anderen Mitwirkenden aus der Community über das Projekt austauschen können. Dies ist der beste Ort, um schnelle Tipps zu erhalten und Funktionen mit anderen zu diskutieren.
 
-<div align="center"><a href="http://gitter.im/gantry/gantry5" class="button"><i class="fa fa-fw fa-support"></i> Chat with Us on Gitter</a></div>
+<div align="center"><a href="http://gitter.im/gantry/gantry5" class="button"><i class="fa fa-fw fa-support"></i> Chatten Sie mit uns auf Gitter</a></div>
 
-You can also check out the source files and download past/current releases of Gantry 5 [directly on GitHub](http://github.com/gantry/gantry5). This is also the best place to submit issues and bug reports that you come across while using Gantry 5.
+Sie können sich auch die Quell-Dateien ansehen und frühere und aktuelle Versionen von Gantry 5 [direkt über GitHub](http://github.com/gantry/gantry5) herunterladen. Dort können Sie außerdem am besten Probleme und Fehlerberichte melden, auf die Sie bei der Verwendung von Gantry 5 stoßen.
 
-<div align="center"><a href="http://github.org/gantry/gantry5" class="button"><i class="fa fa-fw fa-github"></i> Submit an Issue on GitHub</a></div>
+<div align="center"><a href="http://github.org/gantry/gantry5" class="button"><i class="fa fa-fw fa-github"></i> Ein Issue auf GitHub verfassen</a></div>
 
-You can also find a lot of resources here in the Gantry Documentation. In the next chapter, we break down the different areas of the Gantry 5 Administrator and how it can help you get more done with Gantry 5.
+Viele weitere Informationsquellen finden Sie auch hier in der Gantry-Dokumentation. Im nächsten Kapitel gehen wir auf die verschiedenen Bereiche des Gantry 5-Administrators ein und erläutern, wie er Ihnen dabei helfen kann, mehr aus Gantry 5 herauszuholen.

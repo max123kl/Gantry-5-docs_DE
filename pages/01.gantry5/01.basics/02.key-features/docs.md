@@ -5,56 +5,56 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
+Gantry 5 ist mit Funktionen vollgepackt, die es ermöglichen, Entwürfe mit geringstem Aufwand zu voll funktionsfähigen Layouts zu gestalten.
 
 [plugin:youtube](https://www.youtube.com/watch?v=H0RCz-ziJoo)
 
-#### Responsive Layout System
+#### Responsives Layout System
 
-Gantry 5 uses the **Nucleus** grid system, built from scratch using Flexbox and tied in to the **Layout Manager** to generate classes.
+Gantry 5 verwendet das **Nucleus** Raster-System, das auf Flexbox basiert und an den **Layout-Manager** gekoppelt ist um Klassen zu generieren.
 
-#### Cross-platform Support
+#### Plattformübergreifende Unterstützung
 
-The new responsive Gantry 5 framework is developed for **Joomla 3.4+**, **WordPress 4.2.2++**, and **Grav 1.1+**.
+Das neue responsive Gantry 5 Framework ist für **Joomla 3.4+**, **WordPress 4.2.2++** und **Grav 1.1+** erhältlich.
 
-! Additional platforms will be added as development continues.
+! Weitere Plattformen werden im Laufe der Entwicklung hinzukommen.
 
-#### Intuitive YAML-driven Configuration
+#### Intuitive YAML-gesteuerte Konfiguration
 
-[YAML](http://yaml.org/) is a human-readable data serialization, making it easy to create and configure blueprints for back-end configuration options.
+[YAML](http://yaml.org/) ist eine vereinfachte Auszeichnungssprache zur Datenserialisierung. Sie erleichtert die Erstellung und Konfiguration von Konzepten für die Konfiguration von Optionen im Backend.
 
 #### Twig Templating
 
-Gantry 5 utilizes [Twig](http://twig.sensiolabs.org/) to make creating powerful, dynamic themes quick and easy.
+Gantry 5 nutzt [Twig](http://twig.sensiolabs.org/), um schnell und einfach leistungsstarke, dynamische Themes zu erstellen.
 
-#### New Administrative Interface
+#### Neue Administrations-Schnittstelle
 
-Gantry 5's administrative interface has been completely rebuilt from the ground up to meet the needs of tomorrow's developer, today.
+Die Gantry 5 Verwaltungsoberfläche wurde von Grund auf komplett neu entwickelt, um damit die Bedürfnisse der Entwickler von morgen schon heute zu erfüllen.
 
-#### Infinitely Customizable
+#### Unbegrenzt anpassbar
 
-Gantry 5 is the most customizable and powerful version of the framework yet, featuring drag-and-drop customization controlling virtually every aspect of the site's layout and design.
+Gantry 5 ist die bisher anpassungsfähigste und leistungsstärkste Version des Frameworks und bietet eine Drag-and-Drop-Anpassung, die praktisch jeden Aspekt des Layouts und Designs der Website steuern kann.
 
-#### New Particles System
+#### Das neue Partikel-System
 
-Gantry 5's new Particles system makes it easy to create, configure, and manage content blocks. Create new Particles in minutes, adjust their settings at multiple levels from global down to the individual block, and more!
+Mit dem neuen Partikel-System von Gantry 5 lassen sich Inhaltsblöcke einfach erstellen, konfigurieren und verwalten. Erstellen Sie neue Partikel in wenigen Minuten, passen Sie ihre Einstellungen auf mehreren Ebenen an, von global bis hinunter zum einzelnen Block, und vieles mehr!
 
-#### Flexible and Easy Layout Manager
+#### Flexibler und einfacher Layout-Manager
 
-Set up and configure page layouts with Gantry 5's new Layout Manager. Featuring drag-and-drop functionality that gives you the power to place content blocks, resize them, and configure their unique settings in seconds. Load layout presets or duplicate the layout of another Outline with a click of the mouse, and customize virtually every aspect of the page layout without ever having to touch a text editor.
+Mit dem neuen Layout-Manager von Gantry 5 können Sie Seitenlayouts einrichten und konfigurieren. Dank der Drag-and-Drop-Funktionalität können Sie in sekundenschnelle Inhaltsblöcke platzieren, ihre Größe ändern und ihre individuellen Einstellungen konfigurieren. Laden Sie Layout-Presets oder duplizieren Sie das Layout einer anderen Outline mit einem Mausklick, und passen Sie praktisch jeden beliebigen Punkt des Seiten-Layouts an, ohne jemals einen Text-Editor anfassen zu müssen.
 
-#### No Programming Experience Necessary
+#### Keine Programmierkenntnisse notwendig
 
-Adding and moving positions, resizing blocks, and more can be done with drag-and-drop simplicity in the new, powerful Layout Manager. Error pages and other areas of site design are also easily handled in Gantry 5's administrative interface. You can change almost any aspect of a theme without breaking out a single editor.
+Das Hinzufügen und Verschieben von Positionen, die Größenänderung von Blöcken und vieles mehr kann durch einfaches Ziehen und Ablegen im neuen, leistungsstarken Layout-Manager erfolgen. Auch Fehlerseiten und andere Bereiche des Website-Designs lassen sich in der administrativen Oberfläche von Gantry 5 leicht bedienen. Sie können fast jeden Aspekt eines Designs ändern, ohne einen einzigen Editor aufrufen zu müssen.
 
-#### Powerful Menu Editor
+#### Leistungsstarker Menu Editor
 
-Change the way your site's menus look with Gantry 5's powerful Menu Editor. Quickly insert Particles, rearrange menu items, and add icons in seconds.
+Ändern Sie das Aussehen der Menüs auf Ihrer Website mit dem leistungsstarken Menü-Editor von Gantry 5. Fügen Sie Partikel ein, ordnen Sie Menüpunkte neu und fügen Sie Symbole in kürzester Zeit hinzu.
 
-#### New Outline System
+#### Das neue Outline-System
 
-Theme overrides are now part of Gantry 5's Outline system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed.
+Theme-Overrides sind jetzt Teil des Outline-Systems von Gantry 5. Damit können Sie auf einfache Weise Layouts, Einstellungen, Styles und mehr erstellen, verwalten und nach Belieben zuordnen.
 
-#### Use SCSS or CSS
+#### Unterstützung von SCSS oder CSS
 
-Gantry 5 has built-in support for SCSS and pure CSS.
+Gantry 5 bietet eine integrierte Unterstützung für SCSS und reinem CSS.
