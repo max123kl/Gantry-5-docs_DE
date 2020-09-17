@@ -1,15 +1,22 @@
-title: Gantry Documentation
-metadata:
-    description: 'Gantry Documentation'
-
+title: 'Gantry Documentation'
+default_lang: de
 author:
   name: RocketTheme
-  email: 'devs@gantry.org'
-
-taxonomies: [category,tag]
+  email: devs@gantry.org
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Gantry Documentation'
 summary:
+  enabled: true
+  format: short
   size: 300
-
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog
 github:
-  tree: https://github.com/gantry/docs/tree/develop
-  commits: https://github.com/gantry/docs/commits/develop/
+  tree: 'https://github.com/gantry/docs/tree/develop'
+  commits: 'https://github.com/gantry/docs/commits/develop/'
