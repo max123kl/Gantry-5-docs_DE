@@ -1,0 +1,18 @@
+state: enabled
+email: webadmin@local.ziller.de
+fullname: Zadmin
+title: Web-Admin
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$1BIvyxHjTFZqBjeMsvR5/.1lqbN1yWcy9nIIDO2eAq/rfTRul.Qmu
+password: null
+language: de
+twofa_enabled: false
+twofa_secret: 2YAFLWDCZUCXEVAIPGN7MNL3RMVSZCVO
+avatar: {  }
+info: null
+groups: null
