@@ -1,0 +1,18 @@
+name: Dz Learn
+slug: dz-learn
+type: theme
+version: 0.1.0
+description: test
+icon: rebel
+author:
+  name: Xmen
+  email: max123kl@local.ziller.de
+homepage: https://github.com/xmen/grav-theme-dz-learn
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/xmen/grav-theme-dz-learn/issues
+readme: https://github.com/xmen/grav-theme-dz-learn/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
