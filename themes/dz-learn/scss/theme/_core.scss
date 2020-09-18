@@ -1,0 +1,71 @@
+body {
+    background: $page-bg;
+    color: $core-text;
+}
+
+a {
+    color: $core-accent;
+    &:hover {
+        color: darken($core-accent, 15%);
+    }
+}
+
+.bg {
+    background: #fff;
+    border: 1px solid $body-border;
+}
+
+.default-animation {
+    @include transition(all 0.5s ease);
+}
+
+
+#body {
+    .callouts {
+        margin: 3rem auto;
+
+        dt {
+            width: 100%;
+        }
+
+        img, .video-container {
+            margin: auto;
+        }
+    }
+}
+
+.tab {
+    table, td {
+        border: 1px solid #ddd;
+    }
+
+    table {
+        background-color: $white;
+    }
+
+    thead th {
+        background-color: #fdfdfd;
+    }
+}
+
+#body .callouts dt {
+    width: auto;
+}
+
+.scroll-wrapper {
+    .highlightable {
+        padding: 0;
+    }
+}
+
+body .copy-to-clipboard {
+    background-color: transparent;
+    background-size: 16px 16px;
+    width: 22px;
+    height: 1rem;
+    margin-left: 0;
+}
+
+body pre .copy-to-clipboard {
+    padding: 0.8em;
+}
