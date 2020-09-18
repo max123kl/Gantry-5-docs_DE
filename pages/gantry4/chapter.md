@@ -1,5 +1,6 @@
 ---
 title: 'Gantry 4'
+published: false
 taxonomy:
     category:
         - docs

@@ -1,4 +1,8 @@
-icon_divider_classes: 'fa fa-angle-double-right'
-icon_home: 'fa fa-angle-double-right'
+enabled: true
+show_all: true
+built_in_css: true
 include_home: false
+include_current: true
+icon_home: 'fa fa-angle-double-right'
+icon_divider_classes: 'fa fa-angle-double-right'
 link_trailing: false
