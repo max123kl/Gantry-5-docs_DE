@@ -1,11 +1,11 @@
 ---
-title: Menu Editor
+title: Menü-Editor
 taxonomy:
     category: docs
     tag: [gantry5]
 ---
 
-![Menu](menu_module_1.png?classes=shadow,border)
+![Menü](menu_module_1.png?classes=shadow,border)
 
 The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the front end of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
 
@@ -15,9 +15,9 @@ The **Menu Editor** administrative panel takes what your CMS' built-in Menu Mana
 
 This panel is a Global panel, that is not specific to any outline. It's because of this that the changes you make here will affect all instances of a particular menu as it appears in any outline.
 
-## Selecting a Menu
+## Menü auswählen
 
-![Selecting a Menu](selecting_a_menu.png?classes=shadow,border)
+![Ein Menü auswählen](selecting_a_menu.png?classes=shadow,border)
 
 The first thing you will want to do is select the menu you wish to edit. This can be done using the dropdown located near the top of the **Menu Editor** administrative panel. These menus are sourced from your CMS' **Menu Manager**. If you want to create a new menu, you will need to do so using the Menu Manager for your particular CMS.
 

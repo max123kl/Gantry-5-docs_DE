@@ -1,134 +1,134 @@
 ---
-title: Gantry Admin
+title: Gantry-Admin
 taxonomy:
     category: docs
     tag: [gantry5]
 ---
 
-The **Gantry Admin** is a collection of settings used to set up and configure a Gantry-powered theme. It acts as a central command center for pretty much everything and anything you need to change related to the theme, layout, presets, menu, and assignments.
+Der **Gantry-Admin** ist eine Reihe von Einstellungen, die zum Einrichten und Konfigurieren eines mit Gantry arbeitenden Themes verwendet werden. Er fungiert als zentrale Kommandozentrale für so ziemlich alles und jedes, das Sie im Zusammenhang mit dem Theme, dem Layout, den Voreinstellungen, dem Menü und den Zuweisungen ändern können.
 
-You can reach the Gantry Admin by following these steps:
+Sie erreichen den Gantry Admin, wenn Sie diesen Schritten folgen:
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=JWKpeFRqcDI)
 
-The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled template is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+Als erstes müssen Sie sicherstellen, dass das Gantry-Framework und ein aktives Gantry-Template installiert und ausgewählt sind. Eine detaillierte Schritt-für-Schritt-Anleitung hierzu finden Sie in [unserer Anleitung](../../basics/installation).
 
-![Control Panel Method](../../basics/installation/gantry_default.png?classes=shadow,border)
+![Kontroll-Panel Methode](../../basics/installation/gantry_default.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → Extensions → Templates** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
+Sobald dies erledigt ist, navigieren Sie zu **Administrator → Erweiterungen → Templates** und wählen Sie das Gantry-Template aus, das Sie konfigurieren möchten. Das sollte Sie zum Abschnitt **Übersicht** des Gantry-Admin für diese Vorlage führen.
 
-![Control Panel Method](gantry_update_1.png?classes=shadow,border)
+![Kontroll-Panel Methode](gantry_update_1.png?classes=shadow,border)
 
-Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Themes** in the sidebar to the left under the **Extensions** section.
+Alternativ können Sie auf den Gantry 5-Administrator zugreifen, indem Sie zum **Kontrollzentrum** im Backend von Joomla navigieren und **Gantry 5 Themes** in der Seitenleiste links unter dem Abschnitt **Erweiterungen** auswählen.
 
-![Components Method](admin_access_1.png?classes=shadow,border)
+![Komponenten-Methode](admin_access_1.png?classes=shadow,border)
 
-There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Themes** in the administration menu in the backend of Joomla.
+Es gibt eine dritte Methode, die einfach durch Navigation zu **Komponenten → Gantry 5 Themes** im Administrationsmenü des Backend von Joomla erreicht werden kann.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+Als erstes müssen Sie sicherstellen, dass das Gantry-Framework und ein aktives Gantry-Template installiert und ausgewählt sind. Eine detaillierte Schritt-für-Schritt-Anleitung hierzu finden Sie in [unserer Anleitung](../../basics/installation).
 
-[Timber](https://wordpress.org/plugins/timber-library/) is a third-party plugin that enables WordPress to work with Gantry 5's system. Because Timber is installed with Gantry automatically, you don't need to install it separately for Gantry to work.
+[Timber](https://wordpress.org/plugins/timber-library/) ist ein Plugin eines Drittanbieters, durch das WordPress mit dem Gantry5-System zusammenarbeiten kann. Da Timber automatisch mit Gantry installiert wird, brauchen Sie es nicht separat zu installieren, um Gantry nutzen zu können.
 
 ![Sidebar](wp_sidebar.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → (Theme Name) Theme**. This should take you to the **Overview** section of the Gantry Admin for that theme.
+Sobald dies erledigt ist, navigieren Sie zu **Administrator → (Theme-Name)-Theme**. Dadurch sollten Sie zum Abschnitt **Übersicht** des Gantry-Administrators für dieses Theme gelangen.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The first thing you will need to do is ensure that the Gantry Framework is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+Als erstes müssen Sie sichergehen, dass das Gantry-Framework installiert und aktiv ist. Eine detaillierte Schritt-für-Schritt-Anleitung dazu finden Sie in [unserer Anleitung](../../basics/installation).
 
 ![Sidebar](grav_sidebar.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → Gantry 5** in the sidebar. Click on the Gantry logo. This should take you to the **Available Themes** section of the Gantry Admin. Here, you can choose the theme you wish to configure by selecting the **Configure** button.
+Sobald dies erledigt ist, navigieren Sie zu **Administrator → Gantry 5** in der Seitenleiste. Klicken Sie auf das Gantry-Logo. Dadurch sollten Sie zum Abschnitt **Available Themes** des Gantry-Administrators gelangen. Hier können Sie das Theme wählen, das Sie konfigurieren möchten, indem Sie auf die Schaltfläche **Konfigurieren** klicken.
 
 [/ui-tab]
 [/ui-tabs]
 
-Admin Panels
+Admin-Panels
 -----
 
-Each tab located near the top of the **Gantry Admin** gives the user quick access to various elements of the Gantry-powered theme's settings. These sections, referred to as *Panels*, make it easy to quickly navigate to the setting you need to adjust.
+Jeder Karteireiter im oberen Bereich vom **Gantry Admin** gibt dem Benutzer einen schnellen Zugriff auf verschiedene Elemente des von Gantry gesteuerten Themes. Diese Abschnitte, die als *Panels* bezeichnet werden, machen es einfach, schnell zu der Einstellung zu navigieren, die Sie anpassen wollen.
 
-There are two different types of panels. The first, located along the very top of the **Gantry Admin**, are global settings which affect not only your selected outline, but the site as a whole. These include the **Menu** and **About** panels. Additionally, you can use the **Outlines** panel to manage and create new outlines for your site.
+Es gibt zwei verschiedene Arten von Panels. Die erste, die sich ganz oben im **Gantry Admin** befindet, sind globale Einstellungen, die sich nicht nur auf die von Ihnen gewählte Outline, sondern auf die Website als Ganzes auswirken. Dazu gehören die Panels **Menu** und **About**. Zusätzlich können Sie das **Outlines**-Panel verwenden, um neue Outline-Entwürfe für Ihre Site zu verwalten und zu erstellen.
 
-The second type of panels are available on the gray tabs bar and they enable you to refine settings for the presently-selected outline. These **Outline-specific** panels make it possible for you to give each page of your site a unique look, visually setting your front page apart from your About page, for example.
+Die zweite Art von Elementen ist auf der grauen Registerkartenleiste zu finden und ermöglicht es Ihnen, die Einstellungen für die aktuell ausgewählte Outline zu optimieren. Diese **Outline-spezifischen** Panels ermöglichen es Ihnen, jeder Seite Ihrer Website ein individuelles Aussehen zu geben, indem Sie z.B. Ihre Startseite visuell von Ihrer About-Seite abheben.
 
-A quick description of each of these panels can be found below.
+Eine kurze Beschreibung jedes dieser Panels finden Sie weiter unten.
 
-### Global Admin Panels
+### Globale Admin-Panels
 
-The **Global Admin Panels** do not affect a single Outline, but have influence over the entire theme. These panels enable you to do things like switch between and edit individual Outlines, edit and configure the Menus, and find out more about the Gantry-powered theme.
+Die **globalen Admin-Panels** betreffen nicht eine einzelne Outline, sondern haben Einfluss auf das gesamte Theme. Diese Panels ermöglichen es Ihnen, zwischen einzelnen Outlines zu wechseln und diese zu bearbeiten, die Menüs zu bearbeiten und zu konfigurieren und mehr über das Gantry-gestützte Theme zu erfahren.
 
 #### Outlines
 
 ![Outlines](outlines.jpg?classes=shadow,border)
 
-This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**.
+In diesem Panel können Sie neue Outlines verwalten und erstellen, jede mit einem eigenen Set aus Layout, Stil, Zuweisungen und Partikeleinstellungen. Es gibt zwei Arten von Outlines, **Standard** und **System**.
 
-**Standard outlines** can be created by the user, based on one of several available **Layout Presets**, and assigned to various page types to give them a unique layout and/or set of settings. Your **Base** outline acts as the **Master** outline did in Gantry 4, with all other outlines being overrides which enable you to change settings to meet the needs of a specific page.
+**Standard Outlines** können vom Benutzer erstellt werden, basierend auf einem der vorhandenen **Layout-Presets** und den unterschiedlichen Seitentypen zugewiesen werden, um ihnen ein eigenes Layout und/oder einen eigenen Satz von Einstellungen zu verleihen. Ihre **Base** Outline verhält sich wie die **Master** Outline in Gantry 4, wobei alle übrigen Outlines Vorrang haben, so dass Sie die Voreinstellungen entsprechend den Anforderungen einer bestimmten Seite ändern können.
 
-**System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
+**System-Outlines** sind zentrale Outlines, die mit bestimmten Seitentypen, wie 404 oder Offline, verlinkt sind. Diese Outlines können bearbeitet, aber nicht erstellt, umbenannt oder gelöscht werden, da sie den zentralen Bestandteil von Gantry bilden.
 
-You can switch to an individual Outline in two ways. This panel will enable you to set a specific Outline as active in the Outline-specific panels of the Admin by clicking their associated **edit** buttons. Alternatively, you can switch between them using the drop-down menu located on the left-hand side of the toolbar which hosts the **outline-specific administrative panels**.
+Sie können auf zwei Arten zu einer individuellen Outline wechseln. In diesem Panel können Sie eine bestimmte Outline in den Outline-spezifischen Panels des Admin als aktiv einstellen, indem Sie auf die zugehörigen **Bearbeiten**-Buttons klicken. Alternativ können Sie zwischen diesen Schaltflächen mit Hilfe des Dropdown-Menüs auf der linken Seite der Symbolleiste wechseln, in der sich die **outline-spezifischen administrativen Panels** befinden.
 
 ![Outlines](outlines2.jpg?classes=shadow,border)
 
-Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Page Settings, Layout, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
+Outlines können sehr einfach umbenannt werden, und zwar an mehreren verschiedenen Stellen. Sie können dies sowohl vom administrativen Panel **Outlines** als auch von jedem outline-spezifischen Panel (Stile, Seiteneinstellungen, Layout und Zuweisungen) aus tun, indem Sie das kleine Bleistift <span class="fa fa-pencil"></span> Symbol neben der Dropdown-Liste für die Outline-Auswahl anklicken.
 
-<div align="center"><a href="../configure/outlines" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Outlines Admin Panel</a></div>
+<div align="center"><a href="../configure/outlines" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Admin-Panel für Outlines erfahren</a></div>
 
-#### Menu
+#### Menü
 
-![Menu](menu_module_1.png?classes=shadow,border)
+![Menü](menu_module_1.png?classes=shadow,border)
 
-The **Menu Editor** makes it easy to configure and add information to menus as they appear on your site. Virtually every aspect of the menu's appearance and arrangement can be altered from this panel.
+Der **Menü-Editor** macht es einfach, Menüs zu konfigurieren und Informationen zu Menüs hinzuzufügen, wie sie auf Ihrer Website erscheinen. Praktisch jeder Aspekt des Erscheinungsbildes und der Anordnung der Menüs kann von diesem Panel aus geändert werden.
 
-The Gantry menu system grabs information from the CMS' own menu system, and creates an override that enables you to rearrange items and configure it the way you would like it to appear on the front end. These customizations are then served to the visitor. The changes you make to the menu does not impact the way the CMS uses the menu. If you need to make changes to page ordering or any other CMS-specific property, you will still need to do this from the native menu manager.
+Das Gantry-Menüsystem greift auf Informationen aus dem CMS-eigenen Menüsystem zu und erstellt einen Override, der es Ihnen ermöglicht, Elemente neu anzuordnen und so zu konfigurieren, wie Sie es am Frontend angezeigt haben möchten. Diese Anpassungen werden dann dem Besucher präsentiert. Die Änderungen, die Sie am Menü vornehmen, haben keinen Einfluss auf die Art und Weise, wie das CMS das Menü verwendet. Wenn Sie Änderungen an der Seitenanordnung oder an einer anderen CMS-spezifischen Eigenschaft vornehmen müssen, müssen Sie dies weiterhin über den nativen Menümanager tun.
 
-<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Menu Editor</a></div>
+<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über den Menü-Editor erfahren</a></div>
 
-#### About
+#### Über
 
-![About](about.png?classes=shadow,border)
+![Über](about.png?classes=shadow,border)
 
-The **About** panel enables the theme developer to place information about the theme, such as a feature list and credits, as well as links to documentation and a reference screenshot. This is also where users can quickly find the currently-enabled theme name, version number, and developer information.
+Das Panel **Über** ermöglicht es dem Entwickler des Themes, Informationen über das Theme zu platzieren, wie z.B. eine Feature-Liste und Credits, sowie Links zur Dokumentation und einen Referenz-Screenshot. Hier können Benutzer auch schnell den aktuell aktivierten Theme-Namen, die Versionsnummer und Informationen zum Entwickler finden.
 
-#### Page Settings
+#### Seiten-Einstellungen
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-![Content](page.jpg?classes=shadow,border)
+![Inhalt](page.jpg?classes=shadow,border)
 
-The **Page Settings** administrative panel gives you quick access to Global page settings that affect the site. These include **Atoms**, **Body Attributes**, **Head Properties**, and **Assets** such as the favicon and CSS/JavaScript you wish to have available to the page.
+Der Administrationsbereich **Seiten-Einstellungen** gibt Ihnen schnellen Zugriff auf globale Seiten-Einstellungen, die sich auf die Site auswirken. Dazu gehören **Atome**, **Body-Attribute**, **Head-Eigenschaften** und **Assets** wie das Favicon und CSS/JavaScript, die der Seite zur Verfügung stehen sollen.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Content](wp_page.jpg?classes=shadow,border)
+![Inhalt](wp_page.jpg?classes=shadow,border)
 
-The **Page Settings** administrative panel gives you quick access to Global page settings that affect the site. These include **Atoms**, **Body Attributes**, **Head Properties**, and **Assets** such as the favicon and CSS/JavaScript you wish to have available to the page.
+Der Administrationsbereich **Seiten-Einstellungen** gibt Ihnen schnellen Zugriff auf globale Seiten-Einstellungen, die sich auf die Site auswirken. Dazu gehören **Atome**, **Body-Attribute**, **Head-Eigenschaften** und **Assets** wie das Favicon und CSS/JavaScript, die der Seite zur Verfügung stehen sollen.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-![Content](grav_page.jpg?classes=shadow,border)
+![Inhalt](grav_page.jpg?classes=shadow,border)
 
-The **Page Settings** administrative panel gives you quick access to Global page settings that affect the site. These include **Atoms**, **Body Attributes**, **Head Properties**, and **Assets** such as the favicon and CSS/JavaScript you wish to have available to the page.
+Der Administrationsbereich **Seiten-Einstellungen** gibt Ihnen schnellen Zugriff auf globale Seiten-Einstellungen, die sich auf die Site auswirken. Dazu gehören **Atome**, **Body-Attribute**, **Head-Eigenschaften** und **Assets** wie das Favicon und CSS/JavaScript, die der Seite zur Verfügung stehen sollen.
 
 [/ui-tab]
 [/ui-tabs]
 
-### Outline-specific Panels
+### Outline-spezifische Panels
 
-**Outline-specific Panels** offer users the ability to customize the layout, settings, and assignments of a specific outline. In Gantry 4, *outlines* were referred to as *overrides*.
+**Outline-spezifische Panels** bieten Benutzern die Möglichkeit, das Layout, die Einstellungen und Zuordnungen einer bestimmten Outline anzupassen. In Gantry 4 wurden *Outlines* als *Overrides* bezeichnet.
 
 #### Styles
 
@@ -136,64 +136,63 @@ The **Page Settings** administrative panel gives you quick access to Global page
 
 [plugin:youtube](https://www.youtube.com/watch?v=I0f4bXxZkVQ)
 
-The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
+Mit Hilfe des **Styles**-Panels lassen sich visuelle Elemente, die mit dem Gantry-gesteuerten Theme verbunden sind, schnell und einfach anpassen. Dazu können farbcodierte Voreinstellungen, Schriftarten, Akzentfarben und Farben für bestimmte Bereiche der Seite sowie benutzerdefinierte Elemente wie Farben, Blockstile und Hintergründe gehören. Grundsätzlich kann hier alles konfiguriert werden, was von der Gestaltung mit CSS beeinflusst wird und sich auf das Seitendesign bezieht.
 
-<div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Styles Panel</a></div>
+<div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Styles-Panel erfahren</a></div>
 
-#### Particle Defaults
+#### Partikel-Standards
 
-![Particle Defaults](settings.jpg?classes=shadow,border)
+![Partikel-Standards](settings.jpg?classes=shadow,border)
 
-The **Particle Defaults** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
+Das Panel **Partikel-Standards** ist eine virtuelle Kommandozentrale für Partikel. Hier können Sie Partikel schnell ein- und ausschalten und ihre globalen Einstellungen konfigurieren.
 
-<div align="center"><a href="../configure/particle-defaults" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particle Defaults Panel</a></div>
+<div align="center"><a href="../configure/particle-defaults" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Panel Partikel-Standards erfahren</a></div>
 
 #### Layout
 
 ![Layouts](layout.jpg?classes=shadow,border)
 
-This is the **Layout Manager** panel which enables you to arrange Particles, content, and widget/module positions for your theme. This panel is essentially where you set up how the page's elements will be arranged, and what they will include. Additionally, you can access individual settings for Particles, Blocks, Sections, and Grids.
+Das ist das Panel **Layout-Manager**, mit dem Sie Partikel, Inhalt und Widget-/Modulpositionen für Ihr Theme anordnen können. In diesem Panel legen Sie im Prinzip fest, wie die Elemente der Seite angeordnet werden und was sie enthalten sollen. Zusätzlich können Sie auf individuelle Einstellungen für Partikel, Blöcke, Abschnitte und Raster zugreifen.
 
-<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Layout Panel</a></div>
+<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Layout-Panel erfahren</a></div>
 
-#### Assignments
+#### Zuweisungen
 
-![Assignments](assignments.jpg?classes=shadow,border)
+![Zuweisungen](assignments.jpg?classes=shadow,border)
 
-The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have an outline set up that you would like to apply specifically to your **About** page, you can do so here.
+Das Panel **Zuweisungen** ist Ihre zentrale Stelle für die Zuweisung von Outlines zu bestimmten Seiten. Wenn Sie zum Beispiel eine Outline eingerichtet haben, die Sie speziell für Ihre **Über** Seite anwenden möchten, können Sie dies hier tun.
 
-<div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Assignments Panel</a></div>
+<div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Mehr über das Zuweisungs-Panel erfahren</a></div>
 
-#### Content (WordPress)
+#### Inhalt (WordPress)
 
 [ui-tabs position="top-left" active="1"]
 [ui-tab title="Joomla"]
 
-The **Content** administrative panel is not available on Joomla as Joomla handles these settings in its own integrated system.
+Das administrative Panel **Inhalt** ist unter Joomla nicht verfügbar, da Joomla diese Einstellungen in seinem eigenen integrierten System verwaltet.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Content](wp_content.jpg?classes=shadow,border)
+![Inhalt](wp_content.jpg?classes=shadow,border)
 
-The **Content** administrative panel gives you the ability to quickly and easily configure the way content is displayed on a given page.
+Das administrative Panel **Inhalt** gibt Ihnen die Möglichkeit, schnell und einfach zu definieren, wie der Inhalt auf einer vorgegebenen Seite angezeigt werden soll.
 
-For example, you can use this panel to set which categories appear in a page, as well as meta information such as author tags, comments, the size of featured images, and more.
+Sie können dieses Panel beispielsweise verwenden, um festzulegen, welche Kategorien auf einer Seite erscheinen, sowie Metainformationen wie Autoren-Tags, Kommentare, die Größe der dargestellten Bilder und mehr.
 
-The following types of pages have their own set(s) of settings:
+Die folgenden Seitentypen haben jeweils ihre eigene Sammlung von Einstellungen:
 
 * Blog
 * Page
 * Post
 * Archive
 
-This enables you to refine how data is displayed, depending on the type of page it is being displayed on. This gives your outlines extended flexibility, and significantly reduces development time as a result.
+Auf diese Weise können Sie die Anzeige der Daten je nach Art der Seite, auf der sie angezeigt werden, verfeinern. Ihre Outlines erhalten dadurch eine größere Flexibilität und verkürzen dadurch die Entwicklungszeit erheblich.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The **Content** administrative panel is not presently available in Grav.
+Das administrative Panel **Inhalt** ist derzeit in Grav nicht verfügbar.
 
 [/ui-tab]
 [/ui-tabs]
-

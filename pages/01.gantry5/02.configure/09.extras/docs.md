@@ -36,7 +36,7 @@ Once you place your site in **Production** mode you will need to [**Clear Cache*
 
 In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as cache, minified vs. extended JS/CSS, etc.
 
-#### Alternative Toggle Access
+#### Umschalten Alternative
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]

@@ -1,5 +1,5 @@
 ---
-title: Layout Manager
+title: Layout-Manager
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -9,10 +9,10 @@ The **Layout Manager** in the Gantry-based theme administration interface provid
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
-Using the Load Button
+Die Schaltfläche „Laden“ verwenden
 -----
 
-**Layout Presets** enable you to quickly switch between pre-configured layouts for your site. These layouts are included in the theme and feature a different set of sections. Some layout presets may include a sidebar, or multiple sidebars, and a number of sections intended to fit a specific page style.
+Mit **Layout-Presets** können Sie schnell zwischen vorkonfigurierten Layouts für die Website wechseln. Diese Layouts sind im Theme enthalten und verfügen über einen anderen Satz von Abschnitten. Einige Layout-Voreinstellungen können eine Seitenleiste oder mehrere Seitenleisten und eine Reihe von Abschnitten enthalten, die auf einen bestimmten Seitenstil abgestimmt sind.
 
 ![Choosing a Layout Preset](choosing1.png?classes=shadow,border)
 
@@ -87,11 +87,11 @@ Layout
 
 The layout consists of several different sections, each with its own set of settings that enable you to customize the behavior and look of your site on the front end.
 
-### Sections
+### Sektionen
 
-![Sections](section.png?classes=shadow,border)
+![Sectionen](section.png?classes=shadow,border)
 
-For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles** and **Positions**.
+Für das Layout sind die elementarsten Teile der Seite die **Sektionen**. Diese Abschnitte geben Ihnen die Möglichkeit, inhaltliche Sektionen zu erstellen, jede mit einem oder mehreren horizontalen Feldern, auf denen Sie **Blöcke**, einschließlich **Partikel** und **Positionen**, platzieren können.
 
 You can add **Grids** by selecting the **plus (+)** icon in the upper-right corner of a **Section**. This will create a new row at the bottom of the Section which you can click and drag to move it as needed.
 
@@ -105,7 +105,7 @@ Find out more about inheritance in sections in our [Inheritance Guide](../inheri
 | :------        | :----------------------------------                                 |
 | Layout         | Enables you to set a `Fullwidth` or `Boxed` layout for the section. |
 | CSS Classes    | Enables you to add a CSS class for the Section.                     |
-| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the Section.| 
+| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the Section.|
 | Tag Attributes | Enables you to add HTML attributes for the Section.                 |
 
 The **Section** settings give you the ability to change the way a particular section renders and behaves on the front end. You can set the layout type, add **custom CSS classes**, or set **HTML attributes** and do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
@@ -114,7 +114,7 @@ The **Section** settings give you the ability to change the way a particular sec
 
 ![Grids](grid.png?classes=shadow,border)
 
-Grids are the horizontal rows in which Blocks live. In a Grid, you can place **positions** and **particles**.
+Grids sind die horizontalen Reihen, in denen Blocks liegen. In einem Grid können Sie **Positionen** und **Partikel** platzieren.
 
 #### Settings
 
@@ -194,5 +194,3 @@ One interesting note about the Offcanvas Section is in its settings. You can set
 ![Offcanvas](offcanvas_5.png?classes=shadow,border)
 
 In the **Styles** administrative panel the **Dropdown Width** field sets the width of the panel (in pixels) enabling you to set how much of the screen becomes the panel when it is active.
-
-

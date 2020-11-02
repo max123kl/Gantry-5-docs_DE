@@ -1,36 +1,36 @@
 ---
-title: Page Settings
+title: Seiten-Einstellungen
 taxonomy:
     category: docs
     tag: [gantry5]
 ---
 
-The **Page Settings** administrative panel allows you to extend the output of the page by letting you include additional elements. This includes elements such as the **favicon**, Facebook and Twitter **meta tags**, and even JavaScript and/or CSS files. All of these elements are meant to be shared across the entire site and **Page Settings** is what lets you do so.
+Das Administrator-Panel **Seiten-Einstellungen** ermöglicht es Ihnen, die Ausgabe der Seite zu optimieren. So können Sie zusätzliche Elemente hinzufügen. Dazu gehören Elemente wie die **Favicon**, Facebook- und Twitter- **Meta-Tags** und sogar JavaScript- und/oder CSS-Dateien. Alle diese Elemente sind dafür gedacht, auf der gesamten Website verwendet zu werden und **Seiten-Einstellungen** erlaubt Ihnen, genau das zu tun.
 
-In the traditional template approach, to add any of these elements, you would need to manually edit the file that includes the structure of the page. This is usually an `index.php` file. Page Settings simplifies this process exponentially by abstracting the manual editing labor into a simple and powerful form right into the admin.
+Beim traditionellen Template-Ansatz müssten Sie, um eines dieser Elemente hinzuzufügen, die Datei, die die Struktur der Seite enthält, manuell bearbeiten. Dies ist normalerweise eine `index.php`-Datei. Page Settings vereinfacht diesen Prozess exponentiell, indem es die manuelle Bearbeitungsarbeit in eine einfache und leistungsfähige Form direkt in der Administration abstrahiert.
 
-Thanks to the Gantry's core concept and implementation of overrides, Page Settings can be global, as well as Outline independent, if ever needed. You could use it to add an analytics script to the whole site, or have a different one appear depending on which outline a page is assigned to.
+Dank des Gantry-Kernkonzepts und der Implementierung von Overrides können die Seiteneinstellungen sowohl global als auch Outline-unabhängig sein, falls jemals erforderlich. Sie können damit ein Analyseskript der gesamten Website hinzufügen oder ein anderes Skript anzeigen lassen, je nachdem, welcher Outline eine Seite zugeordnet ist.
 
-## Controls
+## Steuerung und Kontrolle
 
-![Controls](controls.png?classes=shadow,border)
+![Steuerung und Kontrolle](controls.png?classes=shadow,border)
 
-!!! Just as in the [Particle Defaults Panel](../particle-defaults#controls), overrides, filtering and collapsing work the same way.
+!!! Genau wie bei den [Partikel-Standard-Einstellungen](../particle-defaults#controls), funktioniert das Übersteuern, Filtern und Einklappen der Elemente hier auf die gleiche Weise.
 
-## Head Properties
+## Head-Eigenschaften
 
-![Particle Settings](head_properties.jpg) {.border .shadow}
+![Partikel-Einstellungen](head_properties.jpg) {.border .shadow}
 
-The **Head Properties** block allows you to customize anything that goes between the `<head></head>` tags. Often, you will want to add meta tags for Facebook or Twitter, or perhaps you simply want to add something custom.
+Der Block **Head-Eigenschaften** erlaubt es Ihnen, alles anzupassen, was zwischen den `<head></head>` Tags liegt. Häufig werden Sie Meta-Tags für Facebook oder Twitter hinzufügen wollen, oder vielleicht möchten Sie einfach etwas Eigenes hinzufügen.
 
-The screenshot above demonstrates one of the many possible ways you could compile Head Properties.
+Der vorstehende Screenshot zeigt eine der vielen Möglichkeiten, wie Sie die Head-Eigenschaften erstellen können.
 
 ### Meta Tags
 
-**Meta Tags** is a Collection field that takes a list of keys and values, combines them, and renders them inside `<head></head>` in the form of a `<meta>` property.
-The use of Meta Tags is countless. Usually meta tags are used to better define a site for search engines as well as define how the site gets displayed when embedded in Facebook or Twitter.
+**Meta Tags** ist ein Feld, das eine Reihe von Schlüsseln und Werten aufnimmt, diese kombiniert und sie innerhalb `<head></head>` in Form einer `<meta>` Eigenschaft abbildet.
+Die Anzahl der verwendeten Meta-Tags ist unbegrenzt. Normalerweise werden Meta-Tags verwendet, um eine Website für Suchmaschinen besser zu definieren und um festzulegen, wie die Website angezeigt wird, wenn sie in Facebook oder Twitter eingebettet ist.
 
-More details about **Facebook's Open Graph** and **Twitter's Cards** meta tags can be found at the following locations:
+Weitere Einzelheiten zu den Meta-Tags **Facebook's Open Graph** und **Twitter's Cards** finden Sie auf den folgenden Seiten:
 
 - [https://developers.facebook.com/docs/sharing/webmasters](https://developers.facebook.com/docs/sharing/webmasters)
 - [https://dev.twitter.com/cards/markup](https://dev.twitter.com/cards/markup)
@@ -39,110 +39,111 @@ More details about **Facebook's Open Graph** and **Twitter's Cards** meta tags c
 
 ### Custom Content
 
-The Custom Content field is dedicated to anything specific that one wants to append to the `<head>` tag. Any metadata that is allowed by the specs to go inside <head> can be written in here, the same way you would do if you were editing an `index.html` file.
+Das Feld Custom Content (Benutzerdefinierter Inhalt) ist für alles vorgesehen, was man an den `<head>` Tag anhängen möchte. Alle Metadaten, die nach den Spezifikationen innerhalb von <head> erlaubt sind, können hier eingetragen werden, genauso wie Sie es tun würden, wenn Sie eine `index.html`-Datei bearbeiten würden.
 
-Common metadata tags are `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`.
+Verbreitete Metadaten-Tags sind `<title>`, `<style>`, `<meta>`, `<link>`, `<script>` und `<base>`.
 
-! It is highly advised to handle Scripts and Styles via [Assets Section](#assets) or via [Atoms](#atoms). Although it can be tempting to write script and tags code directly in this field, it should only be used as a last resort in case. Evaluate properly whether Scripts and Styles should go in here.
+! Es wird dringend empfohlen, Skripte und Stile über den [Assets-Bereich](#assets) oder über [Atoms](#atoms) zu bedienen. Obwohl es verlockend sein kann, Skript- und Tags-Code direkt in dieses Feld zu schreiben, sollte es nur als letzter Ausweg benutzt werden. Prüfen Sie genau, ob Skripte und Stile hier eingefügt werden sollten.
 
 ## Body Attributes
 
-![Particle Settings](body_attributes.jpg) {.border .shadow}
+![Partikel-Einstellungen](body_attributes.jpg) {.border .shadow}
 
-**Body Attributes** allows users to customize the attributes for the `<body>` tag as well as inject content right after `<body>` opens or right before `</body>` closes.
+**Body-Attribute** erlaubt es den Anwendern, die Attribute für das `<body>`-Tag anzupassen und Inhalte direkt nach dem Öffnen von `<body>` oder direkt vor dem Schließen von `</body>` zu setzen.
 
-### Body Id and Body Classes
+### Body-ID und Body-Klassen
 
-The **Body Id** field allows users to specify an id for the `<body>`, while **Body Classes** allow users to add additional personal class names. Following the example in the screenshot above, the resulting output will render as:
+Das Feld **Body-ID** erlaubt es Anwendern, eine ID für den `<Body>` anzugeben, während **Body-Klassen** es Anwendern erlauben, zusätzliche persönliche Klassennamen hinzuzufügen. Wenn man dem Beispiel im vorstehenden Screenshot folgen möchte, wird die Ausgabe wie folgt gerendert:
 
 ```html
 <body id="my-site" class="... gantry body-class ...">
 ```
 
-Gantry itself already adds classes of its own to the body, based on various factors such as the menu item being viewed, what outline is being used, etc.
+Gantry selbst fügt dem Body bereits eigene Klassen hinzu, die auf verschiedenen Faktoren basieren, wie z.B. dem betrachteten Menüpunkt, welche Outline verwendet wird, usw.
 
-Most of the time you won't need to add any custom class name, although in case you need, this is the place for it.
+In den meisten Fällen brauchen Sie keinen benutzerdefinierten Klassennamen hinzuzufügen, aber falls Sie einen solchen benötigen, ist dies der richtige Ort dafür.
 
-### Tag Attributes
+### Tag-Attribute
 
-**Tag Attributes** is a Key/Value field that allows to render additional custom attributes for the `<body>`. Considering the screenshot example of above, imagine to have loaded a script that allows users to customize the scroll speed and page auto refresh via `data-scroll` and `data-refresh` attributes.
+**Tag-Attribute** ist ein Schlüssel/Wert-Feld, das es erlaubt, zusätzliche benutzerdefinierte Attribute für den `<body>` zu rendern. Stellen Sie sich vor, Sie hätten ein Skript geladen, das es dem Benutzer erlaubt, die Scroll-Geschwindigkeit und die automatische Seitenaktualisierung über die Attribute `data-scroll` und `data-refresh` anzupassen.
 
-The resulting output will render as:
+Das ausgegebene Ergebnis wird gerendert zu:
 
 
 ```html
 <body id="my-site" class="... gantry body-class ..." data-scroll="500ms" data-refresh="3mins">
 ```
 
-### Sections Layout
+### Sections-Layout
 
-Since Gantry 5.2.0, by default, all Sections in the **Layout Manager** refer to this setting for their style. Sections Layout offers three types of styles:
 
-1. **Fullwidth (Boxed Content)** _[Default - previously "Fullwidth"]_
-2. **Fullwidth (Flushed Content)** _[new in 5.2.0]_
+Seit Gantry 5.2.0 beziehen sich standardmäßig alle Bereiche im **Layout-Manager** für ihren Stil auf diese Einstellung. Das Feld Sections-Layout bietet drei Arten von Styles an:
+
+1. **Fullwidth (Boxed Content)** (Geschachtelter Inhalt) _[Vorgabe – früher "Fullwidth"]_
+2. **Fullwidth (Flushed Content)** (Bündiger Inhalt) _[neu in 5.2.0]_
 3. **Boxed**
 
 And this is a visual representation of all three cases
 
-| Fullwidth (Boxed Content) [Default]                     | Fullwidth (Flushed Content)                         | Boxed                                           |
+| Fullwidth (Boxed Content) [Vorgabe]                     | Fullwidth (Flushed Content)                         | Boxed                                           |
 | :-----:                                                 | :-----:                                             | :-----:                                         |
 | ![Fullwidth](fullwidth.jpg?lightbox=963,712&resize=300) | ![Flushed](flushed.jpg?lightbox=963,712&resize=300) | ![Boxed](boxed.jpg?lightbox=963,712&resize=300) |
 
-These styles allow users to customize the whole site or individual Sections to accommodate specific needs. The most common case scenario, for instance, is wanting a section to be fully flushed so that an image or background can be added to it making it flush to the edges.
+Diese Stile ermöglichen es den Benutzern, die gesamte Website oder einzelne Abschnitte an ihre eigenen Bedürfnisse anzupassen. Der häufigste Fall ist zum Beispiel, dass ein Abschnitt vollständig bündig sein soll, so dass ein Bild oder ein Hintergrund hinzugefügt werden kann, um ihn an den Rändern abzuschließen.
 
-To change the behavior of individual Sections, head to the Layout Manager panel and click the gear action icon of the desired section. You will then be able to pick a different value for the **Layout** field. **Inherit** will tell Gantry that it should be using the Setting from the **Page Settings** panel.
+Um das Verhalten einzelner Abschnitte zu ändern, gehen Sie zum Layout-Manager-Panel und klicken Sie auf das Zahnrad-Aktionssymbol des gewünschten Bereichs. Sie können dann einen anderen Wert für das Feld **Layout** wählen. **Inherit** teilt Gantry mit, dass es die Einstellung aus dem Feld **Seiten-Einstellungen** verwenden soll.
 
 ![Layout Section Settings](section-layout.jpg) {.border .shadow}
 
-### After `<body>` and Before `</body>`
+### Nach `<body>` und Vor `</body>`
 
-Sometimes you need to inject styles, scripts or elements to the page and they need to be inserted either at the beginning or the end of `<body>`.
+Manchmal müssen weitere Stile, Skripte oder Elemente in die Seite eingefügt werden und diese müssen dann entweder am Anfang oder am Ende von `<body>` eingefügt werden.
 
-A great example was [Facebook's SDK for JavaScript](https://developers.facebook.com/docs/javascript/quickstart/v1.0) at its version 1.0. Back then, Facebook required the site to provide a `<div id="fb-root"></div>` right after the `<body>` tag opened. As you can see from the screenshot example above, that would have been the perfect place for it.
+Ein gutes Beispiel war [Facebooks SDK für JavaScript](https://developers.facebook.com/docs/javascript/quickstart/v1.0) in der Version 1.0. Damals verlangte Facebook von der Website die Angabe eines `<div id="fb-root"></div>` direkt nach dem Öffnen des `<body>`-Tags. Wie Sie aus dem Screenshot-Beispiel von oben sehen können, wäre das der perfekte Ort dafür gewesen.
 
-You will often see scripts requiring that you do render elements up front in the page and instead of creating new Modules, Particles or Widgets, you can simply add your element in here. Popups are also a good example. The content of the modal is rendered in the page but invisible, until an element triggers the popup to open.
+Sie werden oft Skripte sehen, die erfordern, dass Sie Elemente im Vordergrund auf der Seite rendern und an statt dafür neue Module, Partikel oder Widgets zu erstellen, können Sie Ihr Element hier einfach einfügen. Auch Popups sind hierfür ein gutes Beispiel. Der Inhalt des Modals wird auf der Seite gerendert, ist aber unsichtbar, bis ein Element das Öffnen des Popups auslöst.
 
 ## Assets
 
-![Particle Settings](assets.jpg) {.border .shadow}
+![Partikel-Einstellungen](assets.jpg) {.border .shadow}
 
-**Assets** is a dedicated section for injecting specific CSS/JS or Favicons to the site. Even though anything you can do in Assets you could do with just [Head Properties](#head-properties) and [Body Attributes](#body-attributes), we decoupled these portions to its own section.
+**Assets** ist ein spezieller Abschnitt zum Einfügen spezifischer CSS/JS oder Favicons in die Website. Obwohl alles, was Sie in Assets tun können, auch nur mit [Head-Eigenschaften](#head-properties) und [Body-Attribute](#body-attributes) möglich ist, haben wir diese Teile in einem eigenen Abschnitt entkoppelt.
 
-Assets serve a very important role in custom templating. Including 3rd party scripts or styles has become very common and for this very reason, having a dedicated section to keep everything well organized is important.
+Assets spielen eine sehr wichtige Rolle beim Custom Templating. Das Einbeziehen von Skripten oder Stilen von Drittanbietern ist sehr üblich geworden, und genau aus diesem Grund ist es wichtig, einen eigenen Abschnitt zu haben, um alles gut organisiert zu halten.
 
-### Favicon and Touch Icon
+### Favicon und Touch-Symbol
 
-The **Favicon** and **Touch Icon** features allow users to assign an image to the site that will then represent in form of an icon for the browser tab or in your device home screen.
+Mit den Eigenschaften **Favicon** und **Touch-Symbol** können Benutzer der Site ein Bild zuweisen, das dann in Form eines Symbols für die Browser-Registerkarte oder in der Startansicht Ihres Bildschirms angezeigt wird.
 
-Both fields are very similar, the **Favicon** field uses the more traditional way of rendering and associating an icon to the site. In the past, this has been always represented with a **16x16** or **32x32** icon size file.
+Beide Felder sind sehr ähnlich, das **Favicon**-Feld verwendet die traditionellere Art der Darstellung und Zuordnung eines Icons zur Website. In der Vergangenheit wurde dies immer mit einer Icon-Datei der Größe **16x16** oder **32x32** realisiert.
 
-These days, with the advent of touch devices and the possibility of saving into bookmarks or home screens a whole site, new standards have arisen allowing for bigger and more detailed icons. **Touch Icon** covers this and allows to let the devices be aware that your site can use icons with higher resolutions.
+Heutzutage sind mit dem Einsatz von Touch-Geräten und der Möglichkeit, eine ganze Website in Lesezeichen oder auf dem Startbildschirm zu speichern neue Standards entstanden, die größere und detailliertere Symbole ermöglichen. **Touch-Symbol** erfüllt diese Anforderungen und ermöglicht es, die Geräte darüber zu informieren, dass Ihre Website Icons mit höheren Auflösungen verwenden kann.
 
-If you want to use **Touch Icon**, it is advised that you create an image that is at least **180x180** or **192x192**. Devices with a smaller resolution will adapt and downscale the image but the higher resolution will benefit of a nice looking icon.
+Wenn Sie **Touch-Symbol** verwenden möchten, wird empfohlen, ein Bild zu erstellen, das mindestens **180x180** oder **192x192** Pixel groß ist. Bei kleineren Auflösungen wird das Bild angepasst und verkleinert, aber bei höheren Auflösungen wird ein schöneres Icon angezeigt.
 
-! Gantry only covers the most common use of Touch Icons and supports iOS, Android and Windows. It also only downscales icons. If you are looking for a more sophisticated use of this and more targeted sizes, refer to [this article](https://mathiasbynens.be/notes/touch-icons). You can also use [Online tools for generating icons](http://realfavicongenerator.net/). The perfect place for adding custom generated icons code is [Head Properties: Custom Content](#head-properties).
+! Gantry beinhaltet nur die gebräuchlichste Verwendung von Touch-Symbolen und arbeitet mit iOS, Android und Windows. Es werden nur Icons herunterskaliert. Wenn Sie eine etwas raffiniertere Verwendung und speziellere Formate suchen, lesen Sie [diesen Artikel](https://mathiasbynens.be/notes/touch-icons). Sie können auch [Online-Tools zum Erstellen von Symbolen](http://realfavicongenerator.net/) verwenden. Die perfekte Stelle für das Hinzufügen von benutzerdefiniert generiertem Icon-Code ist der Bereich [Kopf-Eigenschaften: Benutzerdefinierter Inhalt](#head-properties).
 
-### CSS and JavaScript
+### CSS und JavaScript
 
-Both **CSS** and **JavaScript** Collection fields work identically to the [Custom CSS/JS Atom](#custom-css-js). The same behavior can be accomplished by adding an [Atom](#atom) as explained below. Although in some cases one would prefer to have separated assets between the Assets section and Atoms. Both methods are right and it just comes down to what you prefer.
+Die Funktionen der Felder **CSS** und **JavaScript** sind identisch mit denen von [Custom CSS/JS Atom](#custom-css-js). Das gleiche Verhalten kann durch Hinzufügen eines [Atoms](#atom) erreicht werden, wie unten erläutert.  In einigen Fällen würde man es allerdings vorziehen, die Assets getrennt nach dem Bereich Assets und Atoms zu verwalten. Beide Methoden sind geeignet und es kommt nur darauf an, was Sie bevorzugen.
 
 ## Atoms
 
 ![Particle Settings](atoms.gif) {.border .shadow}
 
-Since Gantry 5.2.0, Atoms have been moved from the **Layout Manager** into the **Page Settings** panel. Even though Atoms are *de-facto* Particles and can be [created the same way](../../advanced/creating-a-new-particle), they behave differently.
+Seit Gantry 5.2.0 wurden Atome aus dem **Layout-Manager** in den Bereich **Page Settings** (Seiten-Einstellungen) verschoben. Obwohl Atome de-facto Partikel sind und auf die [gleiche Weise](../../advanced/creating-a-new-particle) erstellt werden können, verhalten sie sich unterschiedlich.
 
-Atoms are Particles that do not appear visually on the front end, but do serve an important purpose. They can be assigned on a per-page basis, or as a default which automatically applies to all of the pages on the site.
+Atome sind Partikel, die optisch nicht am Frontend zu sehen sind, aber einem wichtigen Zweck dienen. Sie können auf Basis einzelner Seiten oder als Standard zugewiesen werden, der automatisch für alle Seiten der Website gilt.
 
-For all intents and purposes, Atoms such as **Google Analytics**, and **Custom CSS / JS** add scripting to the page which add or modify the page's scripting during load. This is useful for basic styling such as coloring, and analytics tracking.
+Für alle möglichen Zwecke fügen Atoms, wie **Google Analytics** und **Custom CSS / JS**, auf der Seite Skripte ein, die das Rendern der Seite während des Ladens beeinflussen oder ändern. Das ist praktisch für das grundlegende Styling, wie z.B. die Farbgebung und die Auswertung von Analysen.
 
-! When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
+! Wenn Sie ein Atom verwenden wird der Pfad zu einer lokalen Datei relativ zum Stammverzeichnis der Site und nicht zum Template-Ordner angegeben. Wir empfehlen die Verwendung eines Stream-Links, wie z.B. `gantry-theme://custom/thing.css`, damit der Link auch dann funktioniert, wenn Sie zwischen G5-Themes oder Plattformen wechseln.
 
 ### Google Analytics
 
 ![Google Analytics](atoms-analytics_settings.png?classes=shadow,border)
 
-The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
+Das **Google Analytics** Atom ermöglicht Ihnen das schnelle Hinzufügen Ihres **Google Analytics UA-Codes** zu einem Layout, das während des Ladens der Seite im Hintergrund Ihrer Seite läuft. Es fügt das notwendige Scripting um den Code herum ein, den Sie in den **Einstellungen** des Atoms eingeben.
 
 ### Custom CSS / JS
 
@@ -150,12 +151,12 @@ The **Google Analytics** Atom gives you the ability to quickly add your **Google
 
 ### JavaScript Frameworks
 
-The **JavaScript Frameworks** Atom gives you the ability to easily add popular JS libraries to your page.
+Das Atom **JavaScript Frameworks** gibt Ihnen die Möglichkeit, Ihrer Seite auf eine einfache Weise gängige JS-Bibliotheken hinzuzufügen.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 ![JavaScript Frameworks](atoms-frameworks_settings.png?classes=shadow,border)
-! In Joomla the default **Bootstrap** library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2.
+! In Joomla wird die standardmäßige Bibliotheks-Option **Bootstrap** die aktuelle Implementierung von Bootstrap basierend auf Bootstrap 2.3.2 in Ihre Joomla-Installation laden.
 [/ui-tab]
 [ui-tab title="WordPress"]
 ![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
@@ -167,7 +168,7 @@ The **JavaScript Frameworks** Atom gives you the ability to easily add popular J
 
 ### Lightcase
 
-Lightcase is small, lightweight lightbox atom that gives you the ability to bring your images to life. It works in the background as an atom, being called with simple HTML. Here's an example:
+Lightcase ist ein kleines, handliches Lightbox-Atom, das Ihnen die Möglichkeit gibt, Ihre Bilder zum Leben zu erwecken. Es arbeitet im Hintergrund als ein Atom, das mit einfachem HTML aufgerufen wird. Hier ist ein Beispiel:
 
 ```html
 <a href="path/to/media.jpg"
@@ -178,8 +179,6 @@ Lightcase is small, lightweight lightbox atom that gives you the ability to brin
 </a>
 ```
 
-All you need to do to take advantage of Lightcase is to activate it as an atom on the page (or pages) you wish to use it with, and to wrap images in HTML like that seen above.
+Um die Vorteile von Lightcase zu nutzen, müssen Sie es lediglich als Atom auf der entsprechenden Seite aktivieren und Bilder, wie oben gezeigt, in HTML einbetten.
 
-Additional documentation for Lightcase can be found here: [http://cornel.bopp-art.com/lightcase/](http://cornel.bopp-art.com/lightcase/)
-
-
+Zusätzliche Dokumentation für Lightcase finden Sie hier: [http://cornel.bopp-art.com/lightcase/](http://cornel.bopp-art.com/lightcase/)

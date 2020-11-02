@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Einführung
 taxonomy:
     category: docs
     tag: [gantry5]
